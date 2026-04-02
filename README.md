@@ -1,116 +1,116 @@
-🏥 CUVORIA - Smart Hospital Recommendation System
+🏥 CUVORIA — Smart Hospital Recommendation System
 
 <p align="center">
   <b>Right Care, Right Place, Right Time</b>
 </p>---
 
-📸 Application Preview
+🚀 Application Preview
 
 🏠 Home Interface
 
-"Home" (assets/home.png)
+<p align="center">
+  <img src="assets/home.png" width="850"/>
+</p>🔍 Hospital Recommendations
 
-🔍 Hospital Recommendations
+<p align="center">
+  <img src="assets/results.png" width="850"/>
+</p>📊 Insights & Analytics
 
-"Results" (assets/results.png)
+<p align="center">
+  <img src="assets/insights.png" width="850"/>
+</p>🗺 Interactive Map
 
-📊 Insights & Analytics
+<p align="center">
+  <img src="assets/map.png" width="850"/>
+</p>🤖 Luna AI Assistant
 
-"Insights" (assets/insights.png)
-
-🗺️ Interactive Map View
-
-"Map" (assets/map.png)
-
-🤖 Luna AI Assistant
-
-"Assistant" (assets/assistant.png)
-
----
+<p align="center">
+  <img src="assets/assistant.png" width="850"/>
+</p>---
 
 🧠 Overview
 
-Cuvoria is a smart hospital recommendation system designed to help users find the most suitable healthcare options based on location, specialization, availability, and quality metrics.
+Cuvoria is an intelligent healthcare recommendation platform designed to help users find the most suitable hospitals based on multiple real-world factors such as location, specialization, availability, and ratings.
 
-It combines data-driven scoring, geolocation logic, and AI assistance to deliver reliable and efficient hospital recommendations.
+The system combines data analytics, geospatial logic, and AI assistance to provide fast, relevant, and reliable hospital recommendations.
 
 ---
 
 ✨ Key Features
 
-- 🔍 Smart recommendations based on city and specialization
-- 📍 Distance-based ranking using geolocation calculations
-- ⭐ Intelligent scoring system (rating, distance, availability)
-- 🚑 Emergency mode for instant nearest hospitals
-- 📊 Interactive insights (ratings, fees, availability comparison)
-- 🗺️ Map visualization using Folium
-- 🤖 Luna AI Assistant for basic medical queries
-- 💾 Bookmark system for saving hospitals
-- 🎨 Clean and responsive UI with Streamlit
-
----
-
-🛠️ Tech Stack
-
-- Frontend: Streamlit
-- Backend: Python
-- Data Processing: Pandas
-- Mapping: Folium
-- AI Integration: Groq (LLaMA 3)
-- Visualization: Streamlit Charts
+- 🏥 Smart hospital recommendations based on user input
+- 📍 Distance-based ranking using real geospatial calculations
+- ⭐ Hybrid scoring system (rating + distance + availability)
+- 📊 Interactive analytics dashboards for better insights
+- 🗺 Real-time hospital location visualization (Folium map)
+- 🤖 Luna AI Assistant for instant health-related queries
+- 🚑 Emergency mode for quick nearest hospital access
+- 💾 Bookmark system to save preferred hospitals
 
 ---
 
 ⚙️ Installation & Setup
 
-1. Clone Repository
+1️⃣ Clone Repository
 
 git clone https://github.com/your-username/Cuvoria-Smart-Hospital-Recommendation-System.git
 cd Cuvoria-Smart-Hospital-Recommendation-System
 
-2. Install Dependencies
+---
+
+2️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-3. Configure API Key
+---
 
-Create a file: ".streamlit/secrets.toml"
+3️⃣ Configure API Key
+
+Create this file:
+
+.streamlit/secrets.toml
+
+Add your Groq API key:
 
 GROQ_API_KEY = "your_api_key_here"
 
-4. Run Application
+---
+
+4️⃣ Run Application
 
 streamlit run app.py
 
 ---
 
-🚀 How It Works
+⚡ How It Works
 
 1. Select your city
-2. Choose required treatment/specialization
+2. Choose required treatment or specialization
 3. Click Find Hospitals
-4. View:
-   - Recommended hospitals
-   - Analytical insights
-   - Interactive map
-   - AI assistance via Luna
+4. Get:
+   - 📍 Best hospital recommendations
+   - 📊 Data-driven insights
+   - 🗺 Interactive map view
+   - 🤖 AI assistance via Luna
 
 ---
 
 📂 Project Structure
 
 Cuvoria/
- ├── app.py
- ├── cleaned_hospitals.csv
- ├── logo.png
- ├── requirements.txt
- ├── assets/
- │    ├── home.png
- │    ├── results.png
- │    ├── insights.png
- │    ├── map.png
- │    └── assistant.png
- └── README.md
+│── app.py
+│── cleaned_hospitals.csv
+│── logo.png
+│── requirements.txt
+│
+├── assets/
+│   ├── home.png
+│   ├── results.png
+│   ├── insights.png
+│   ├── map.png
+│   └── assistant.png
+│
+└── README.md
 
 ---
 
@@ -123,8 +123,16 @@ BTech CSE | Data Analytics | AI & Cloud Enthusiast
 
 📌 Note
 
-This project demonstrates the integration of data analytics, geospatial logic, and AI to solve real-world healthcare discovery problems.
+This project showcases the practical application of data analytics, AI, and geospatial intelligence to solve real-world healthcare accessibility challenges.
 
 ---
 
-© 2026 Cuvoria • Built by Vasu Bhardwaj
+⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
+
+---
+
+<p align="center">
+  <b>Built with ❤️ by Vasu Bhardwaj</b>
+</p>
