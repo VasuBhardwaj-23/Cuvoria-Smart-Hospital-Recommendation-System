@@ -125,7 +125,7 @@ Cuvoria/
 👨‍💻 Author
 
 Vasu Bhardwaj
-Data Analyst | AI & Cloud Enthusiast
+| Data Analyst | AI & Cloud Enthusiast
 
 ---
 
