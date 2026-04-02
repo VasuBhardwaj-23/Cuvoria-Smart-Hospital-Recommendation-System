@@ -1,0 +1,527 @@
+hospital_id,hospital_name,state,city,specialization,consultation_fee,rating,available_slots,beds_available,latitude,longitude,review,cost_category,rating_category
+1,Patel Hospital,Punjab,Jalandhar,"['Cardiology', 'Orthopedics', 'General Medicine', 'Radiology']",700,4.3,5,150,31.326,75.5762,Good infrastructure and experienced doctors,Medium,Good
+2,Johal Hospital,Punjab,Jalandhar,"['Orthopedics', 'General Medicine', 'Pulmonology']",600,4.1,4,120,31.3255,75.5781,Affordable and reliable treatment,Medium,Good
+3,Tagore Hospital,Punjab,Jalandhar,"['Cardiology', 'Neurology', 'Radiology']",800,4.4,3,200,31.3272,75.575,Advanced facilities and good staff,Medium,Good
+4,Capital Hospital,Punjab,Jalandhar,"['Dentistry', 'General Medicine', 'Pathology']",500,4.0,6,100,31.3283,75.5745,Good for basic treatments,Medium,Good
+5,Sgl Hospital,Punjab,Jalandhar,"['Cardiology', 'Pulmonology', 'General Medicine']",900,4.5,2,250,31.329,75.573,Highly rated multi-speciality hospital,Medium,Excellent
+6,Apex Hospital,Punjab,Jalandhar,"['Orthopedics', 'Dermatology', 'General Medicine']",550,4.2,5,130,31.324,75.579,Well maintained and friendly staff,Medium,Good
+7,New Ruby Hospital,Punjab,Jalandhar,"['Pediatrics', 'General Medicine', 'ENT']",450,3.9,7,90,31.3235,75.5802,Good for children care,Low,Average
+8,Sacred Heart Hospital,Punjab,Jalandhar,"['Cardiology', 'Orthopedics', 'Radiology']",750,4.3,4,180,31.3301,75.5725,Trusted hospital with good services,Medium,Good
+9,Healing Touch Hospital,Punjab,Jalandhar,"['Dermatology', 'General Medicine', 'Pathology']",400,4.0,6,80,31.3228,75.581,Affordable and decent care,Low,Good
+10,City Hospital Jalandhar,Punjab,Jalandhar,"['General Medicine', 'Pulmonology', 'Radiology']",650,4.1,5,140,31.3219,75.5822,Good overall patient satisfaction,Medium,Good
+11,Fortis Hospital Ludhiana,Punjab,Ludhiana,"['Cardiology', 'Neurology', 'Pulmonology', 'Radiology']",1000,4.6,3,300,30.9005,75.8573,Top multi-speciality hospital with excellent care,High,Excellent
+12,Dayanand Medical College,Punjab,Ludhiana,"['Cardiology', 'Orthopedics', 'General Medicine', 'Pathology']",800,4.5,4,350,30.9012,75.858,Highly reputed teaching hospital,Medium,Excellent
+13,Sps Hospitals,Punjab,Ludhiana,"['Cardiology', 'Neurology', 'Radiology']",900,4.4,3,250,30.8998,75.8565,Modern infrastructure and skilled doctors,Medium,Good
+14,Christian Medical College,Punjab,Ludhiana,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",700,4.3,5,400,30.902,75.8592,Trusted and affordable care,Medium,Good
+15,Mohan Dai Oswal Hospital,Punjab,Ludhiana,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.2,6,200,30.9031,75.8555,Good patient satisfaction,Medium,Good
+16,Sidhu Hospital,Punjab,Ludhiana,"['General Medicine', 'Pulmonology', 'Radiology']",600,4.1,5,150,30.904,75.8548,Reliable and budget-friendly services,Medium,Good
+17,Khosla Hospital,Punjab,Ludhiana,"['Dentistry', 'General Medicine', 'Pathology']",500,4.0,7,120,30.9052,75.8539,Good for basic treatments,Medium,Good
+18,Aarti Hospital,Punjab,Ludhiana,"['Pediatrics', 'ENT', 'General Medicine']",550,4.1,6,140,30.9061,75.8527,Well maintained and caring staff,Medium,Good
+19,Deep Hospital,Punjab,Ludhiana,"['Cardiology', 'Orthopedics', 'Radiology']",750,4.3,4,180,30.907,75.8515,Experienced doctors and good facilities,Medium,Good
+20,Om Eye And General Hospital,Punjab,Ludhiana,"['Ophthalmology', 'General Medicine', 'Dermatology']",600,4.2,5,130,30.9082,75.8502,Specialized eye care with good reviews,Medium,Good
+21,Amandeep Hospital,Punjab,Amritsar,"['Orthopedics', 'Cardiology', 'General Medicine', 'Radiology']",900,4.6,3,250,31.634,74.8723,Highly reputed hospital with advanced facilities,Medium,Excellent
+22,Fortis Escorts Hospital,Punjab,Amritsar,"['Cardiology', 'Neurology', 'Pulmonology', 'Radiology']",1000,4.7,2,300,31.6352,74.8731,Top rated hospital with expert doctors,High,Excellent
+23,Eden Hospital,Punjab,Amritsar,"['General Medicine', 'Dermatology', 'Pathology']",600,4.2,5,150,31.633,74.871,Affordable and reliable treatment,Medium,Good
+24,Emc Super Speciality Hospital,Punjab,Amritsar,"['Cardiology', 'Orthopedics', 'Neurology']",850,4.4,4,220,31.6365,74.874,Modern hospital with skilled staff,Medium,Good
+25,Rajiv Gandhi Hospital,Punjab,Amritsar,"['General Medicine', 'Pediatrics', 'ENT']",500,4.0,6,180,31.6321,74.8702,Good for general healthcare needs,Medium,Good
+26,Hartej Hospital,Punjab,Amritsar,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.3,5,200,31.6372,74.8755,Well maintained and good patient care,Medium,Good
+27,Bhandari Hospital,Punjab,Amritsar,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,4,170,31.638,74.8762,Experienced doctors and good facilities,Medium,Good
+28,Dr Daljit Singh Eye Hospital,Punjab,Amritsar,"['Ophthalmology', 'General Medicine']",600,4.5,3,120,31.6395,74.877,Specialized eye hospital with high ratings,Medium,Excellent
+29,Sharma Hospital,Punjab,Amritsar,"['General Medicine', 'Pathology', 'Pulmonology']",550,4.1,6,140,31.6315,74.8695,Affordable and decent care,Medium,Good
+30,Neelkanth Hospital,Punjab,Amritsar,"['Cardiology', 'Orthopedics', 'Radiology']",750,4.3,4,190,31.6302,74.868,Trusted hospital with good services,Medium,Good
+31,Rajindra Hospital,Punjab,Patiala,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.4,5,400,30.3398,76.3869,Major government hospital with wide facilities,Medium,Good
+32,Columbia Asia Hospital,Punjab,Patiala,"['Cardiology', 'Neurology', 'Pulmonology', 'Radiology']",1000,4.6,3,250,30.3405,76.3878,Modern hospital with excellent care,High,Excellent
+33,Patiala Heart Institute,Punjab,Patiala,"['Cardiology', 'General Medicine', 'Radiology']",850,4.5,4,200,30.3412,76.3885,Specialized heart care hospital,Medium,Excellent
+34,Goyal Hospital,Punjab,Patiala,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,150,30.3389,76.385,Affordable and reliable services,Medium,Good
+35,Saini Hospital,Punjab,Patiala,"['General Medicine', 'Pediatrics', 'ENT']",550,4.1,5,120,30.3375,76.3842,Good for general healthcare needs,Medium,Good
+36,Apex Hospital Patiala,Punjab,Patiala,"['Orthopedics', 'Cardiology', 'Radiology']",750,4.3,4,180,30.3362,76.3835,Well equipped and experienced staff,Medium,Good
+37,Deepak Hospital,Punjab,Patiala,"['Dentistry', 'General Medicine', 'Pathology']",500,4.0,7,100,30.335,76.382,Good for basic treatments,Medium,Good
+38,Life Line Hospital,Punjab,Patiala,"['General Medicine', 'Pulmonology', 'Radiology']",650,4.2,5,160,30.334,76.3812,Reliable and budget-friendly hospital,Medium,Good
+39,Dr Gupta Eye Hospital,Punjab,Patiala,"['Ophthalmology', 'General Medicine']",600,4.4,3,110,30.3332,76.3805,Specialized eye care with good reviews,Medium,Good
+40,Om Hospital Patiala,Punjab,Patiala,"['Cardiology', 'Orthopedics', 'General Medicine']",700,4.3,4,170,30.3325,76.3798,Trusted hospital with good facilities,Medium,Good
+41,Adesh Hospital,Punjab,Bathinda,"['Cardiology', 'Orthopedics', 'General Medicine', 'Radiology']",800,4.4,4,300,30.207,74.9455,Well known multi-speciality hospital,Medium,Good
+42,Max Super Speciality Hospital,Punjab,Bathinda,"['Cardiology', 'Neurology', 'Pulmonology', 'Radiology']",1100,4.7,2,250,30.2082,74.9462,Top rated hospital with advanced facilities,High,Excellent
+43,Apex Hospital Bathinda,Punjab,Bathinda,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,5,180,30.206,74.944,Affordable and reliable care,Medium,Good
+44,Gian Sagar Hospital,Punjab,Bathinda,"['General Medicine', 'Pediatrics', 'ENT']",550,4.1,6,150,30.205,74.943,Good for general healthcare needs,Medium,Good
+45,Deep Hospital Bathinda,Punjab,Bathinda,"['Cardiology', 'Radiology', 'General Medicine']",750,4.3,4,200,30.2042,74.9425,Experienced doctors and good services,Medium,Good
+46,Life Care Hospital,Punjab,Bathinda,"['General Medicine', 'Pulmonology', 'Pathology']",650,4.2,5,160,30.2035,74.9418,Reliable and budget-friendly hospital,Medium,Good
+47,Sandhu Hospital,Punjab,Bathinda,"['Dentistry', 'General Medicine', 'Pathology']",500,4.0,7,120,30.2028,74.941,Good for basic treatments,Medium,Good
+48,Dr Bansal Eye Hospital,Punjab,Bathinda,"['Ophthalmology', 'General Medicine']",600,4.4,3,100,30.202,74.9405,Specialized eye care hospital,Medium,Good
+49,City Hospital Bathinda,Punjab,Bathinda,"['Cardiology', 'Orthopedics', 'Radiology']",700,4.3,4,170,30.2012,74.9398,Trusted hospital with good facilities,Medium,Good
+50,Om Hospital Bathinda,Punjab,Bathinda,"['General Medicine', 'Dermatology', 'Pathology']",550,4.1,6,140,30.2005,74.939,Decent care with affordable pricing,Medium,Good
+51,Fortis Hospital Mohali,Punjab,Mohali,"['Cardiology', 'Neurology', 'Pulmonology', 'Radiology']",1200,4.8,2,350,30.7046,76.7179,Top tier hospital with advanced facilities and expert doctors,High,Excellent
+52,Max Super Speciality Hospital,Punjab,Mohali,"['Cardiology', 'Oncology', 'Orthopedics', 'Radiology']",1100,4.7,3,300,30.7055,76.7188,Highly rated hospital with excellent patient care,High,Excellent
+53,Ivy Hospital Mohali,Punjab,Mohali,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1000,4.6,4,280,30.7065,76.7195,Modern infrastructure and skilled staff,High,Excellent
+54,Grecian Hospital,Punjab,Mohali,"['Orthopedics', 'Dermatology', 'General Medicine']",700,4.3,5,200,30.7072,76.7203,Affordable and reliable services,Medium,Good
+55,Sohana Hospital,Punjab,Mohali,"['Cardiology', 'Orthopedics', 'General Medicine']",900,4.5,4,250,30.708,76.721,Trusted hospital with good facilities,Medium,Excellent
+56,Silver Oaks Hospital,Punjab,Mohali,"['General Medicine', 'Pediatrics', 'ENT']",650,4.2,6,180,30.7088,76.7218,Good for general healthcare needs,Medium,Good
+57,Landmark Hospital,Punjab,Mohali,"['General Medicine', 'Pulmonology', 'Pathology']",700,4.3,5,190,30.7095,76.7225,Reliable and budget-friendly hospital,Medium,Good
+58,Drishti Eye Hospital,Punjab,Mohali,"['Ophthalmology', 'General Medicine']",600,4.4,3,120,30.7102,76.7232,Specialized eye care with good reviews,Medium,Good
+59,Healing Hospital Mohali,Punjab,Mohali,"['Cardiology', 'Orthopedics', 'Radiology']",850,4.5,4,230,30.711,76.724,Well equipped hospital with experienced doctors,Medium,Excellent
+60,City Hospital Mohali,Punjab,Mohali,"['General Medicine', 'Dermatology', 'Pathology']",600,4.2,6,160,30.7118,76.7248,Affordable and decent care,Medium,Good
+61,Pgimer Chandigarh,Chandigarh,Chandigarh,"['Cardiology', 'Neurology', 'Pulmonology', 'Radiology']",500,4.8,3,500,30.765,76.775,Premier government institute with excellent medical care,Medium,Excellent
+62,Fortis Hospital Chandigarh,Chandigarh,Chandigarh,"['Cardiology', 'Oncology', 'Orthopedics', 'Radiology']",1200,4.7,2,350,30.7662,76.776,Top private hospital with advanced technology,High,Excellent
+63,Max Super Speciality Hospital,Chandigarh,Chandigarh,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1100,4.6,3,300,30.7675,76.7772,Highly reputed hospital with expert doctors,High,Excellent
+64,Alchemist Hospital,Chandigarh,Chandigarh,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.4,5,250,30.7688,76.778,Well maintained hospital with good facilities,Medium,Good
+65,Healing Hospital Chandigarh,Chandigarh,Chandigarh,"['Cardiology', 'Orthopedics', 'General Medicine']",900,4.5,4,280,30.77,76.779,Trusted hospital with experienced staff,Medium,Excellent
+66,Mukat Hospital,Chandigarh,Chandigarh,"['General Medicine', 'Pediatrics', 'ENT']",700,4.3,6,200,30.7712,76.78,Affordable and reliable healthcare services,Medium,Good
+67,Landmark Hospital Chandigarh,Chandigarh,Chandigarh,"['General Medicine', 'Pulmonology', 'Pathology']",750,4.4,5,220,30.7725,76.7812,Good hospital with modern infrastructure,Medium,Good
+68,Grover Eye Laser Hospital,Chandigarh,Chandigarh,"['Ophthalmology', 'General Medicine']",650,4.6,3,150,30.7738,76.782,Highly rated eye care center,Medium,Excellent
+69,Omni Hospital Chandigarh,Chandigarh,Chandigarh,"['Cardiology', 'Orthopedics', 'Radiology']",850,4.5,4,240,30.775,76.783,Well equipped hospital with skilled doctors,Medium,Excellent
+70,City Hospital Chandigarh,Chandigarh,Chandigarh,"['General Medicine', 'Dermatology', 'Pathology']",600,4.2,6,180,30.7762,76.7842,Affordable and decent care,Medium,Good
+71,Civil Hospital Hoshiarpur,Punjab,Hoshiarpur,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",500,4.2,6,250,31.532,75.917,Major government hospital with good facilities,Medium,Good
+72,Khosla Hospital,Punjab,Hoshiarpur,"['General Medicine', 'Pediatrics', 'ENT']",550,4.1,5,150,31.5332,75.9182,Reliable and affordable healthcare services,Medium,Good
+73,City Hospital Hoshiarpur,Punjab,Hoshiarpur,"['Cardiology', 'Orthopedics', 'General Medicine']",700,4.3,4,180,31.5345,75.9195,Well equipped hospital with experienced doctors,Medium,Good
+74,Saini Hospital,Punjab,Hoshiarpur,"['General Medicine', 'Pulmonology', 'Pathology']",600,4.2,5,160,31.5358,75.9208,Good for respiratory and general treatments,Medium,Good
+75,Deep Hospital Hoshiarpur,Punjab,Hoshiarpur,"['Dentistry', 'General Medicine', 'Pathology']",450,4.0,7,120,31.537,75.922,Affordable hospital for basic treatments,Low,Good
+76,Life Care Hospital,Punjab,Hoshiarpur,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.3,4,170,31.5382,75.9232,Good patient care and services,Medium,Good
+77,Drishti Eye Hospital,Punjab,Hoshiarpur,"['Ophthalmology', 'General Medicine']",600,4.4,3,110,31.5395,75.9245,Specialized eye care with high ratings,Medium,Good
+78,Om Hospital Hoshiarpur,Punjab,Hoshiarpur,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,5,140,31.5408,75.9258,Trusted hospital with decent facilities,Medium,Good
+79,Civil Hospital Pathankot,Punjab,Pathankot,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,32.2733,75.6522,Major government hospital with basic facilities,Low,Good
+80,Amandeep Hospital Pathankot,Punjab,Pathankot,"['Orthopedics', 'General Medicine', 'Radiology']",700,4.4,4,180,32.2745,75.6535,Well known hospital with good care,Medium,Good
+81,Kapoor Hospital,Punjab,Pathankot,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,32.2758,75.6548,Reliable and affordable healthcare,Medium,Good
+82,Saini Hospital Pathankot,Punjab,Pathankot,"['General Medicine', 'Pulmonology', 'Pathology']",600,4.3,5,150,32.277,75.656,Good for respiratory treatments,Medium,Good
+83,City Hospital Pathankot,Punjab,Pathankot,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.2,4,160,32.2782,75.6572,Decent facilities and experienced doctors,Medium,Good
+84,Life Care Hospital,Punjab,Pathankot,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.1,6,130,32.2795,75.6585,Affordable and friendly staff,Medium,Good
+85,Drishti Eye Hospital Pathankot,Punjab,Pathankot,"['Ophthalmology', 'General Medicine']",500,4.3,3,100,32.2808,75.6598,Good eye care services,Medium,Good
+86,Om Hospital Pathankot,Punjab,Pathankot,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,5,150,32.282,75.661,Trusted hospital with decent care,Medium,Good
+87,Civil Hospital Moga,Punjab,Moga,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,30.8173,75.171,Major government hospital with basic facilities,Low,Good
+88,Singla Hospital,Punjab,Moga,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.8185,75.1722,Reliable and affordable healthcare,Medium,Good
+89,Deep Hospital Moga,Punjab,Moga,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.8198,75.1735,Good facilities with experienced doctors,Medium,Good
+90,Life Care Hospital Moga,Punjab,Moga,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.821,75.1748,Affordable and friendly staff,Medium,Good
+91,Saini Hospital Moga,Punjab,Moga,"['General Medicine', 'Pulmonology', 'Pathology']",650,4.3,5,150,30.8222,75.176,Good for respiratory and general treatments,Medium,Good
+92,Drishti Eye Hospital Moga,Punjab,Moga,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.8235,75.1772,Specialized eye care services,Medium,Good
+93,Om Hospital Moga,Punjab,Moga,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,5,150,30.8248,75.1785,Trusted hospital with decent facilities,Medium,Good
+94,City Hospital Moga,Punjab,Moga,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.826,75.1798,Good for basic treatments,Low,Good
+95,Civil Hospital Firozpur,Punjab,Firozpur,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,30.9331,74.6225,Major government hospital with basic facilities,Low,Good
+96,Sandhu Hospital,Punjab,Firozpur,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.9345,74.6238,Reliable and affordable healthcare,Medium,Good
+97,City Hospital Firozpur,Punjab,Firozpur,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.9358,74.625,Good facilities with experienced doctors,Medium,Good
+98,Life Care Hospital Firozpur,Punjab,Firozpur,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.937,74.6262,Affordable and friendly staff,Medium,Good
+99,Saini Hospital Firozpur,Punjab,Firozpur,"['General Medicine', 'Pulmonology', 'Pathology']",650,4.3,5,150,30.9382,74.6275,Good for respiratory and general treatments,Medium,Good
+100,Drishti Eye Hospital Firozpur,Punjab,Firozpur,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.9395,74.6288,Specialized eye care services,Medium,Good
+101,Om Hospital Firozpur,Punjab,Firozpur,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,5,150,30.9408,74.63,Trusted hospital with decent facilities,Medium,Good
+102,Deep Hospital Firozpur,Punjab,Firozpur,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.942,74.6312,Good for basic treatments,Low,Good
+103,Civil Hospital Kapurthala,Punjab,Kapurthala,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,31.3801,75.3845,Major government hospital with basic facilities,Low,Good
+104,Sandhu Hospital Kapurthala,Punjab,Kapurthala,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,31.3815,75.3858,Reliable and affordable healthcare,Medium,Good
+105,City Hospital Kapurthala,Punjab,Kapurthala,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,31.3828,75.387,Good facilities with experienced doctors,Medium,Good
+106,Life Care Hospital Kapurthala,Punjab,Kapurthala,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,31.384,75.3882,Affordable and friendly staff,Medium,Good
+107,Saini Hospital Kapurthala,Punjab,Kapurthala,"['General Medicine', 'Pulmonology', 'Pathology']",650,4.3,5,150,31.3852,75.3895,Good for respiratory and general treatments,Medium,Good
+108,Drishti Eye Hospital Kapurthala,Punjab,Kapurthala,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,31.3865,75.3908,Specialized eye care services,Medium,Good
+109,Om Hospital Kapurthala,Punjab,Kapurthala,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,5,150,31.3878,75.392,Trusted hospital with decent facilities,Medium,Good
+110,Deep Hospital Kapurthala,Punjab,Kapurthala,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,31.389,75.3932,Good for basic treatments,Low,Good
+111,Civil Hospital Sangrur,Punjab,Sangrur,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,30.245,75.842,Major government hospital with basic facilities,Low,Good
+112,Gupta Hospital Sangrur,Punjab,Sangrur,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.2463,75.8435,Reliable and affordable healthcare,Medium,Good
+113,City Hospital Sangrur,Punjab,Sangrur,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.2476,75.845,Good facilities with experienced doctors,Medium,Good
+114,Life Care Hospital Sangrur,Punjab,Sangrur,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.2489,75.8465,Affordable and friendly staff,Medium,Good
+115,Saini Hospital Sangrur,Punjab,Sangrur,"['General Medicine', 'Pulmonology', 'Pathology']",650,4.3,5,150,30.2502,75.848,Good for respiratory and general treatments,Medium,Good
+116,Drishti Eye Hospital Sangrur,Punjab,Sangrur,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.2515,75.8495,Specialized eye care services,Medium,Good
+117,Om Hospital Sangrur,Punjab,Sangrur,"['Cardiology', 'Radiology', 'General Medicine']",700,4.2,5,150,30.2528,75.851,Trusted hospital with decent facilities,Medium,Good
+118,Deep Hospital Sangrur,Punjab,Sangrur,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.254,75.8525,Good for basic treatments,Low,Good
+119,Civil Hospital Barnala,Punjab,Barnala,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,200,30.381,75.5465,Major government hospital with basic facilities,Low,Good
+120,Sandhu Hospital Barnala,Punjab,Barnala,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.3822,75.5478,Reliable and affordable healthcare,Medium,Good
+121,City Hospital Barnala,Punjab,Barnala,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.3835,75.549,Good facilities with experienced doctors,Medium,Good
+122,Life Care Hospital Barnala,Punjab,Barnala,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.3848,75.5502,Affordable and friendly staff,Medium,Good
+123,Drishti Eye Hospital Barnala,Punjab,Barnala,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.386,75.5515,Specialized eye care services,Medium,Good
+124,Om Hospital Barnala,Punjab,Barnala,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.3872,75.5528,Good for basic treatments,Low,Good
+125,Civil Hospital Faridkot,Punjab,Faridkot,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,30.6735,74.755,Major government hospital with basic facilities,Low,Good
+126,Guru Gobind Singh Medical College,Punjab,Faridkot,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",800,4.5,4,350,30.6748,74.7565,Reputed medical college hospital with advanced care,Medium,Excellent
+127,Sandhu Hospital Faridkot,Punjab,Faridkot,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,150,30.676,74.758,Reliable and affordable healthcare,Medium,Good
+128,City Hospital Faridkot,Punjab,Faridkot,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,170,30.6772,74.7595,Good facilities with experienced doctors,Medium,Good
+129,Life Care Hospital Faridkot,Punjab,Faridkot,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,140,30.6785,74.761,Affordable and friendly staff,Medium,Good
+130,Drishti Eye Hospital Faridkot,Punjab,Faridkot,"['Ophthalmology', 'General Medicine']",500,4.4,3,110,30.6798,74.7625,Specialized eye care services,Medium,Good
+131,Bajaj Hospital Gurdaspur,Punjab,Gurdaspur,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,150,32.0422,75.4042,Reliable and affordable healthcare,Medium,Good
+132,Civil Hospital Gurdaspur,Punjab,Gurdaspur,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,220,32.041,75.403,Major government hospital with basic facilities,Low,Good
+133,City Hospital Gurdaspur,Punjab,Gurdaspur,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,170,32.0435,75.4055,Good facilities with experienced doctors,Medium,Good
+134,Life Care Hospital Gurdaspur,Punjab,Gurdaspur,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,140,32.0448,75.407,Affordable and friendly staff,Medium,Good
+135,Drishti Eye Hospital Gurdaspur,Punjab,Gurdaspur,"['Ophthalmology', 'General Medicine']",500,4.4,3,110,32.046,75.4085,Specialized eye care services,Medium,Good
+136,Om Hospital Gurdaspur,Punjab,Gurdaspur,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,32.0475,75.41,Good for basic treatments,Low,Good
+137,Civil Hospital Tarn Taran,Punjab,Tarn Taran,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,200,31.451,74.927,Major government hospital with basic facilities,Low,Good
+138,Sandhu Hospital Tarn Taran,Punjab,Tarn Taran,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,31.4522,74.9285,Reliable and affordable healthcare,Medium,Good
+139,City Hospital Tarn Taran,Punjab,Tarn Taran,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,31.4535,74.93,Good facilities with experienced doctors,Medium,Good
+140,Life Care Hospital Tarn Taran,Punjab,Tarn Taran,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,31.4548,74.9315,Affordable and friendly staff,Medium,Good
+141,Drishti Eye Hospital Tarn Taran,Punjab,Tarn Taran,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,31.456,74.933,Specialized eye care services,Medium,Good
+142,Om Hospital Tarn Taran,Punjab,Tarn Taran,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,31.4575,74.9345,Good for basic treatments,Low,Good
+143,Civil Hospital Muktsar,Punjab,Muktsar,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,200,30.474,74.517,Major government hospital with basic facilities,Low,Good
+144,Sandhu Hospital Muktsar,Punjab,Muktsar,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.4752,74.5185,Reliable and affordable healthcare,Medium,Good
+145,City Hospital Muktsar,Punjab,Muktsar,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.4765,74.52,Good facilities with experienced doctors,Medium,Good
+146,Life Care Hospital Muktsar,Punjab,Muktsar,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.4778,74.5215,Affordable and friendly staff,Medium,Good
+147,Drishti Eye Hospital Muktsar,Punjab,Muktsar,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.479,74.523,Specialized eye care services,Medium,Good
+148,Om Hospital Muktsar,Punjab,Muktsar,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.4805,74.5245,Good for basic treatments,Low,Good
+149,Civil Hospital Rupnagar,Punjab,Rupnagar,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,200,30.968,76.525,Major government hospital with basic facilities,Low,Good
+150,Sandhu Hospital Rupnagar,Punjab,Rupnagar,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.9692,76.5265,Reliable and affordable healthcare,Medium,Good
+151,City Hospital Rupnagar,Punjab,Rupnagar,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.9705,76.528,Good facilities with experienced doctors,Medium,Good
+152,Life Care Hospital Rupnagar,Punjab,Rupnagar,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.9718,76.5295,Affordable and friendly staff,Medium,Good
+153,Drishti Eye Hospital Rupnagar,Punjab,Rupnagar,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.973,76.531,Specialized eye care services,Medium,Good
+154,Om Hospital Rupnagar,Punjab,Rupnagar,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.9745,76.5325,Good for basic treatments,Low,Good
+155,Civil Hospital Fazilka,Punjab,Fazilka,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,200,30.403,74.028,Major government hospital with basic facilities,Low,Good
+156,Sandhu Hospital Fazilka,Punjab,Fazilka,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,30.4042,74.0295,Reliable and affordable healthcare,Medium,Good
+157,City Hospital Fazilka,Punjab,Fazilka,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,30.4055,74.031,Good facilities with experienced doctors,Medium,Good
+158,Life Care Hospital Fazilka,Punjab,Fazilka,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,30.4068,74.0325,Affordable and friendly staff,Medium,Good
+159,Drishti Eye Hospital Fazilka,Punjab,Fazilka,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,30.408,74.034,Specialized eye care services,Medium,Good
+160,Om Hospital Fazilka,Punjab,Fazilka,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,30.4095,74.0355,Good for basic treatments,Low,Good
+161,Civil Hospital Nawanshahr,Punjab,Nawanshahr,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,200,31.124,76.119,Major government hospital with basic facilities,Low,Good
+162,Sandhu Hospital Nawanshahr,Punjab,Nawanshahr,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,140,31.1252,76.1205,Reliable and affordable healthcare,Medium,Good
+163,City Hospital Nawanshahr,Punjab,Nawanshahr,"['Cardiology', 'Orthopedics', 'General Medicine']",650,4.3,4,160,31.1265,76.122,Good facilities with experienced doctors,Medium,Good
+164,Life Care Hospital Nawanshahr,Punjab,Nawanshahr,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,130,31.1278,76.1235,Affordable and friendly staff,Medium,Good
+165,Drishti Eye Hospital Nawanshahr,Punjab,Nawanshahr,"['Ophthalmology', 'General Medicine']",500,4.4,3,100,31.129,76.125,Specialized eye care services,Medium,Good
+166,Om Hospital Nawanshahr,Punjab,Nawanshahr,"['General Medicine', 'Pathology', 'Dentistry']",450,4.1,6,120,31.1305,76.1265,Good for basic treatments,Low,Good
+167,Sher-I-Kashmir Institute Of Medical Sciences,Jammu & Kashmir,Srinagar,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",900,4.6,3,400,34.138,74.8,Top government institute with advanced care,Medium,Excellent
+168,Smhs Hospital,Jammu & Kashmir,Srinagar,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",600,4.3,5,350,34.085,74.7973,Major government hospital with good facilities,Medium,Good
+169,Fortis Hospital Srinagar,Jammu & Kashmir,Srinagar,"['Cardiology', 'Orthopedics', 'Radiology']",1000,4.5,4,250,34.0902,74.801,Modern private hospital with expert doctors,High,Excellent
+170,Shifa Medical Centre,Jammu & Kashmir,Srinagar,"['General Medicine', 'Dermatology', 'Pathology']",550,4.2,6,180,34.0925,74.8032,Reliable and affordable healthcare,Medium,Good
+171,Khyber Hospital,Jammu & Kashmir,Srinagar,"['Cardiology', 'Pulmonology', 'General Medicine']",850,4.4,4,220,34.095,74.8055,Well equipped hospital with good services,Medium,Good
+172,Noor Hospital Srinagar,Jammu & Kashmir,Srinagar,"['Orthopedics', 'General Medicine', 'Radiology']",700,4.3,5,200,34.0975,74.808,Trusted hospital with experienced staff,Medium,Good
+173,Green Valley Hospital,Jammu & Kashmir,Srinagar,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,34.1,74.8102,Specialized eye care services,Medium,Good
+174,Life Care Hospital Srinagar,Jammu & Kashmir,Srinagar,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,140,34.1025,74.8125,Affordable and decent care,Medium,Good
+175,Government Medical College Hospital Jammu,Jammu & Kashmir,Jammu,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",800,4.5,4,400,32.7266,74.857,Major government hospital with advanced facilities,Medium,Excellent
+176,Ascoms Hospital Jammu,Jammu & Kashmir,Jammu,"['General Medicine', 'Orthopedics', 'Pediatrics', 'Radiology']",700,4.3,5,300,32.728,74.8585,Reputed medical college hospital with good care,Medium,Good
+177,Fortis Hospital Jammu,Jammu & Kashmir,Jammu,"['Cardiology', 'Orthopedics', 'Radiology']",1000,4.6,3,250,32.7295,74.86,Top private hospital with expert doctors,High,Excellent
+178,Shanti Nursing Home Jammu,Jammu & Kashmir,Jammu,"['General Medicine', 'Dermatology', 'Pathology']",550,4.2,6,180,32.731,74.8615,Affordable and reliable healthcare,Medium,Good
+179,Gupta Hospital Jammu,Jammu & Kashmir,Jammu,"['Cardiology', 'Pulmonology', 'General Medicine']",850,4.4,4,220,32.7325,74.863,Well equipped hospital with good services,Medium,Good
+180,City Hospital Jammu,Jammu & Kashmir,Jammu,"['Orthopedics', 'General Medicine', 'Radiology']",700,4.3,5,200,32.734,74.8645,Trusted hospital with experienced staff,Medium,Good
+181,Drishti Eye Hospital Jammu,Jammu & Kashmir,Jammu,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,32.7355,74.866,Specialized eye care with high ratings,Medium,Good
+182,Life Care Hospital Jammu,Jammu & Kashmir,Jammu,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,140,32.737,74.8675,Affordable and decent care,Medium,Good
+183,Indira Gandhi Medical College Hospital,Himachal Pradesh,Shimla,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.5,4,400,31.1048,77.1734,Major government hospital with advanced facilities,Medium,Excellent
+184,Deen Dayal Upadhyay Hospital,Himachal Pradesh,Shimla,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",500,4.3,6,300,31.1059,77.1748,Trusted government hospital with good services,Medium,Good
+185,Himachal Hospital Shimla,Himachal Pradesh,Shimla,"['Cardiology', 'Orthopedics', 'Radiology']",900,4.4,4,250,31.1072,77.176,Modern private hospital with experienced doctors,Medium,Good
+186,Sanjeevani Hospital Shimla,Himachal Pradesh,Shimla,"['General Medicine', 'Dermatology', 'Pathology']",550,4.2,6,180,31.1085,77.1775,Affordable and reliable healthcare,Medium,Good
+187,City Care Hospital Shimla,Himachal Pradesh,Shimla,"['Cardiology', 'Pulmonology', 'General Medicine']",800,4.3,5,220,31.1098,77.1788,Good hospital with skilled staff,Medium,Good
+188,Life Line Hospital Shimla,Himachal Pradesh,Shimla,"['Orthopedics', 'General Medicine', 'Radiology']",700,4.2,5,200,31.111,77.1802,Well equipped hospital with decent facilities,Medium,Good
+189,Drishti Eye Hospital Shimla,Himachal Pradesh,Shimla,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,31.1123,77.1815,Specialized eye care with good ratings,Medium,Good
+190,Om Hospital Shimla,Himachal Pradesh,Shimla,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,140,31.1135,77.1828,Affordable hospital for basic treatments,Medium,Good
+191,Zonal Hospital Dharamshala,Himachal Pradesh,Dharamshala,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",500,4.2,6,250,32.219,76.3234,Major government hospital with good facilities,Medium,Good
+192,Tenzin Hospital,Himachal Pradesh,Dharamshala,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",550,4.3,5,180,32.2202,76.3248,Trusted hospital with reliable services,Medium,Good
+193,City Hospital Dharamshala,Himachal Pradesh,Dharamshala,"['Cardiology', 'Orthopedics', 'General Medicine']",700,4.3,4,200,32.2215,76.3262,Good facilities with experienced doctors,Medium,Good
+194,Life Care Hospital Dharamshala,Himachal Pradesh,Dharamshala,"['Orthopedics', 'Dermatology', 'General Medicine']",600,4.2,6,150,32.2228,76.3275,Affordable and friendly staff,Medium,Good
+195,Drishti Eye Hospital Dharamshala,Himachal Pradesh,Dharamshala,"['Ophthalmology', 'General Medicine']",550,4.4,3,120,32.224,76.329,Specialized eye care services,Medium,Good
+196,Om Hospital Dharamshala,Himachal Pradesh,Dharamshala,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,140,32.2255,76.3305,Good for basic treatments,Medium,Good
+197,Medanta The Medicity,Haryana,Gurugram,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1500,4.8,2,500,28.4383,77.04,World class hospital with top specialists,High,Excellent
+198,Fortis Memorial Research Institute,Haryana,Gurugram,"['Cardiology', 'Orthopedics', 'Neurology', 'Radiology']",1400,4.7,3,400,28.4395,77.0415,Highly reputed hospital with advanced care,High,Excellent
+199,Artemis Hospital,Haryana,Gurugram,"['Cardiology', 'Oncology', 'Pulmonology', 'Radiology']",1300,4.6,3,350,28.4408,77.043,Modern hospital with excellent infrastructure,High,Excellent
+200,Max Hospital Gurugram,Haryana,Gurugram,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1200,4.6,4,300,28.442,77.0445,Trusted hospital with expert doctors,High,Excellent
+201,Paras Hospitals,Haryana,Gurugram,"['Cardiology', 'Orthopedics', 'General Medicine']",1100,4.5,4,280,28.4432,77.046,Well equipped hospital with good services,High,Excellent
+202,Narayana Superspeciality Hospital,Haryana,Gurugram,"['Cardiology', 'Neurology', 'Radiology']",1000,4.5,4,250,28.4445,77.0475,Affordable multi-speciality hospital,High,Excellent
+203,Columbia Asia Hospital,Haryana,Gurugram,"['General Medicine', 'Pediatrics', 'ENT', 'Radiology']",900,4.4,5,220,28.4458,77.049,Reliable hospital with good patient care,Medium,Good
+204,Life Line Hospital Gurugram,Haryana,Gurugram,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,200,28.447,77.0505,Affordable and friendly staff,Medium,Good
+205,Drishti Eye Hospital Gurugram,Haryana,Gurugram,"['Ophthalmology', 'General Medicine']",700,4.5,3,150,28.4482,77.052,Specialized eye care with high ratings,Medium,Excellent
+206,City Hospital Gurugram,Haryana,Gurugram,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,180,28.4495,77.0535,Decent hospital for basic treatments,Medium,Good
+207,Asian Institute Of Medical Sciences,Haryana,Faridabad,"['Cardiology', 'Neurology', 'Orthopedics', 'Radiology']",1200,4.6,3,400,28.4089,77.3178,Top multi-speciality hospital with advanced care,High,Excellent
+208,Fortis Escorts Hospital,Haryana,Faridabad,"['Cardiology', 'Orthopedics', 'Radiology']",1100,4.5,4,300,28.4102,77.3192,Well known hospital with experienced doctors,High,Excellent
+209,Sarvodaya Hospital,Haryana,Faridabad,"['Cardiology', 'Pulmonology', 'General Medicine']",1000,4.5,4,280,28.4115,77.3205,Trusted hospital with modern facilities,High,Excellent
+210,Qrg Health City,Haryana,Faridabad,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1100,4.6,3,350,28.4128,77.322,Highly reputed hospital with expert staff,High,Excellent
+211,Metro Heart Institute,Haryana,Faridabad,"['Cardiology', 'General Medicine', 'Radiology']",900,4.4,5,250,28.414,77.3235,Good heart care hospital with reliable services,Medium,Good
+212,Life Care Hospital Faridabad,Haryana,Faridabad,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,200,28.4152,77.325,Affordable and friendly staff,Medium,Good
+213,Drishti Eye Hospital Faridabad,Haryana,Faridabad,"['Ophthalmology', 'General Medicine']",700,4.5,3,150,28.4165,77.3265,Specialized eye care with good ratings,Medium,Excellent
+214,City Hospital Faridabad,Haryana,Faridabad,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,180,28.4178,77.328,Decent hospital for basic treatments,Medium,Good
+215,Civil Hospital Panipat,Haryana,Panipat,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,250,29.3909,76.9635,Major government hospital with basic facilities,Low,Good
+216,Park Hospital Panipat,Haryana,Panipat,"['Cardiology', 'Orthopedics', 'General Medicine']",800,4.4,4,220,29.3922,76.965,Well equipped hospital with good services,Medium,Good
+217,City Hospital Panipat,Haryana,Panipat,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,160,29.3935,76.9665,Reliable and affordable healthcare,Medium,Good
+218,Life Care Hospital Panipat,Haryana,Panipat,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.3,5,180,29.3948,76.968,Affordable and friendly staff,Medium,Good
+219,Drishti Eye Hospital Panipat,Haryana,Panipat,"['Ophthalmology', 'General Medicine']",600,4.4,3,140,29.396,76.9695,Specialized eye care services,Medium,Good
+220,Om Hospital Panipat,Haryana,Panipat,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,150,29.3972,76.971,Good for basic treatments,Medium,Good
+221,Civil Hospital Hisar,Haryana,Hisar,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",400,4.1,7,250,29.1492,75.7217,Major government hospital with basic facilities,Low,Good
+222,Sapra Multispeciality Hospital,Haryana,Hisar,"['Cardiology', 'Orthopedics', 'General Medicine']",800,4.4,4,220,29.1505,75.723,Well equipped hospital with good services,Medium,Good
+223,City Hospital Hisar,Haryana,Hisar,"['General Medicine', 'Pediatrics', 'ENT']",550,4.2,5,160,29.1518,75.7245,Reliable and affordable healthcare,Medium,Good
+224,Life Care Hospital Hisar,Haryana,Hisar,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.3,5,180,29.1531,75.726,Affordable and friendly staff,Medium,Good
+225,Drishti Eye Hospital Hisar,Haryana,Hisar,"['Ophthalmology', 'General Medicine']",600,4.4,3,140,29.1544,75.7275,Specialized eye care services,Medium,Good
+226,Om Hospital Hisar,Haryana,Hisar,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,150,29.1557,75.729,Good for basic treatments,Medium,Good
+227,Pgims Rohtak,Haryana,Rohtak,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",800,4.6,4,500,28.8955,76.6066,Major government medical institute with advanced facilities,Medium,Excellent
+228,Civil Hospital Rohtak,Haryana,Rohtak,"['General Medicine', 'Orthopedics', 'Pediatrics', 'ENT']",500,4.2,6,300,28.8968,76.608,Trusted government hospital with good services,Medium,Good
+229,City Hospital Rohtak,Haryana,Rohtak,"['Cardiology', 'Orthopedics', 'General Medicine']",700,4.3,4,200,28.8981,76.6095,Well equipped hospital with experienced doctors,Medium,Good
+230,Life Care Hospital Rohtak,Haryana,Rohtak,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.3,5,180,28.8994,76.611,Affordable and friendly staff,Medium,Good
+231,Drishti Eye Hospital Rohtak,Haryana,Rohtak,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,28.9007,76.6125,Specialized eye care services,Medium,Good
+232,Om Hospital Rohtak,Haryana,Rohtak,"['General Medicine', 'Pathology', 'Dentistry']",500,4.1,6,150,28.902,76.614,Good for basic treatments,Medium,Good
+233,Aiims New Delhi,Delhi,New Delhi,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",800,4.9,3,1000,28.5672,77.21,Premier government institute with world class medical care,Medium,Excellent
+234,Safdarjung Hospital,Delhi,New Delhi,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.5,5,900,28.5685,77.2085,Major government hospital with large capacity,Medium,Excellent
+235,Apollo Hospital Delhi,Delhi,New Delhi,"['Cardiology', 'Oncology', 'Neurology', 'Radiology']",1500,4.7,3,500,28.542,77.283,Top private hospital with advanced facilities,High,Excellent
+236,Fortis Escorts Heart Institute,Delhi,New Delhi,"['Cardiology', 'General Medicine', 'Radiology']",1400,4.7,3,400,28.561,77.273,Highly reputed cardiac care hospital,High,Excellent
+237,Max Super Speciality Hospital Saket,Delhi,New Delhi,"['Cardiology', 'Neurology', 'Orthopedics', 'Radiology']",1300,4.6,4,350,28.527,77.219,Trusted hospital with expert doctors,High,Excellent
+238,Blk-Max Super Speciality Hospital,Delhi,New Delhi,"['Cardiology', 'Oncology', 'Orthopedics', 'Radiology']",1400,4.6,4,400,28.6445,77.191,Well equipped hospital with modern infrastructure,High,Excellent
+239,Sir Ganga Ram Hospital,Delhi,New Delhi,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1200,4.6,4,450,28.638,77.189,Highly reputed hospital with experienced staff,High,Excellent
+240,Artemis Lite Delhi,Delhi,New Delhi,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,28.615,77.23,Reliable hospital with good patient care,Medium,Good
+241,Eye7 Eye Hospital,Delhi,New Delhi,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,28.63,77.22,Specialized eye care hospital with high ratings,Medium,Excellent
+242,City Hospital Delhi,Delhi,New Delhi,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,28.62,77.2105,Affordable hospital for basic treatments,Medium,Good
+243,Sgpgi Lucknow,Uttar Pradesh,Lucknow,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",900,4.7,3,800,26.8467,80.9462,Top government institute with advanced medical care,Medium,Excellent
+244,Kgmu Hospital,Uttar Pradesh,Lucknow,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.5,5,900,26.8478,80.9475,Highly reputed medical university hospital,Medium,Excellent
+245,Medanta Hospital Lucknow,Uttar Pradesh,Lucknow,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1400,4.7,3,500,26.849,80.949,Modern hospital with world class facilities,High,Excellent
+246,Max Super Speciality Hospital Lucknow,Uttar Pradesh,Lucknow,"['Cardiology', 'Neurology', 'Orthopedics', 'Radiology']",1300,4.6,4,400,26.8502,80.9505,Trusted hospital with expert doctors,High,Excellent
+247,Sahara Hospital Lucknow,Uttar Pradesh,Lucknow,"['Cardiology', 'Oncology', 'General Medicine', 'Radiology']",1200,4.6,4,350,26.8515,80.952,Well equipped hospital with modern infrastructure,High,Excellent
+248,Charak Hospital Lucknow,Uttar Pradesh,Lucknow,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",800,4.4,5,250,26.8528,80.9535,Reliable and affordable healthcare,Medium,Good
+249,Vivekananda Hospital Lucknow,Uttar Pradesh,Lucknow,"['Cardiology', 'Orthopedics', 'General Medicine']",900,4.5,4,300,26.854,80.955,Good hospital with experienced staff,Medium,Excellent
+250,Life Line Hospital Lucknow,Uttar Pradesh,Lucknow,"['Orthopedics', 'Dermatology', 'General Medicine']",750,4.3,5,220,26.8552,80.9565,Affordable and friendly staff,Medium,Good
+251,Drishti Eye Hospital Lucknow,Uttar Pradesh,Lucknow,"['Ophthalmology', 'General Medicine']",700,4.5,3,180,26.8565,80.958,Specialized eye care with high ratings,Medium,Excellent
+252,City Hospital Lucknow,Uttar Pradesh,Lucknow,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,26.8578,80.9595,Decent hospital for basic treatments,Medium,Good
+253,Jaypee Hospital Noida,Uttar Pradesh,Noida,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1400,4.7,3,500,28.567,77.333,Top multi-speciality hospital with advanced care,High,Excellent
+254,Fortis Hospital Noida,Uttar Pradesh,Noida,"['Cardiology', 'Orthopedics', 'Radiology']",1300,4.6,4,400,28.5685,77.3345,Highly reputed hospital with expert doctors,High,Excellent
+255,Max Multi Speciality Hospital Noida,Uttar Pradesh,Noida,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1200,4.6,4,350,28.57,77.336,Trusted hospital with good patient care,High,Excellent
+256,Kailash Hospital Noida,Uttar Pradesh,Noida,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,28.5715,77.3375,Well equipped hospital with modern facilities,High,Excellent
+257,Yatharth Super Speciality Hospital,Uttar Pradesh,Noida,"['Cardiology', 'Pulmonology', 'General Medicine']",1100,4.5,4,320,28.573,77.339,Reliable hospital with experienced staff,High,Excellent
+258,Metro Hospital Noida,Uttar Pradesh,Noida,"['Cardiology', 'Orthopedics', 'General Medicine']",900,4.4,5,280,28.5745,77.3405,Affordable hospital with good services,Medium,Good
+259,Drishti Eye Hospital Noida,Uttar Pradesh,Noida,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,28.576,77.342,Specialized eye care hospital,Medium,Excellent
+260,City Hospital Noida,Uttar Pradesh,Noida,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,28.5775,77.3435,Decent hospital for basic treatments,Medium,Good
+261,Gsvm Medical College Hospital,Uttar Pradesh,Kanpur,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.4,5,800,26.4499,80.3319,Major government medical college with advanced facilities,Medium,Good
+262,Regency Hospital Kanpur,Uttar Pradesh,Kanpur,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,400,26.4512,80.3335,Highly reputed private hospital with expert doctors,High,Excellent
+263,Madhuraj Hospital,Uttar Pradesh,Kanpur,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,26.4525,80.335,Well equipped hospital with good services,High,Excellent
+264,Apollo Spectra Hospital Kanpur,Uttar Pradesh,Kanpur,"['Orthopedics', 'General Medicine', 'Radiology']",1100,4.5,4,250,26.4538,80.3365,Modern hospital with good patient care,High,Excellent
+265,Kulwanti Hospital Kanpur,Uttar Pradesh,Kanpur,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",800,4.3,6,220,26.4551,80.338,Reliable and affordable healthcare,Medium,Good
+266,Life Line Hospital Kanpur,Uttar Pradesh,Kanpur,"['Orthopedics', 'Dermatology', 'General Medicine']",750,4.3,5,200,26.4564,80.3395,Affordable and friendly staff,Medium,Good
+267,Drishti Eye Hospital Kanpur,Uttar Pradesh,Kanpur,"['Ophthalmology', 'General Medicine']",700,4.5,3,180,26.4577,80.341,Specialized eye care with high ratings,Medium,Excellent
+268,City Hospital Kanpur,Uttar Pradesh,Kanpur,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,26.459,80.3425,Decent hospital for basic treatments,Medium,Good
+269,Bhu Sir Sunderlal Hospital,Uttar Pradesh,Varanasi,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.5,5,900,25.2677,82.9913,Major government hospital with advanced facilities,Medium,Excellent
+270,Heritage Hospital Varanasi,Uttar Pradesh,Varanasi,"['Cardiology', 'Orthopedics', 'Radiology']",1100,4.6,4,350,25.269,82.9928,Well known private hospital with expert doctors,High,Excellent
+271,Apex Hospital Varanasi,Uttar Pradesh,Varanasi,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,25.2703,82.9943,Good hospital with modern facilities,High,Excellent
+272,Life Line Hospital Varanasi,Uttar Pradesh,Varanasi,"['Orthopedics', 'Dermatology', 'General Medicine']",750,4.3,5,220,25.2716,82.9958,Affordable and friendly staff,Medium,Good
+273,Galaxy Hospital Varanasi,Uttar Pradesh,Varanasi,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",800,4.4,6,250,25.2729,82.9973,Reliable and affordable healthcare,Medium,Good
+274,Drishti Eye Hospital Varanasi,Uttar Pradesh,Varanasi,"['Ophthalmology', 'General Medicine']",700,4.5,3,180,25.2742,82.9988,Specialized eye care with high ratings,Medium,Excellent
+275,City Hospital Varanasi,Uttar Pradesh,Varanasi,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,25.2755,83.0003,Decent hospital for basic treatments,Medium,Good
+276,Om Hospital Varanasi,Uttar Pradesh,Varanasi,"['Cardiology', 'Pulmonology', 'General Medicine']",900,4.4,4,260,25.2768,83.0018,Trusted hospital with good services,Medium,Good
+277,Sms Hospital Jaipur,Rajasthan,Jaipur,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",600,4.5,5,1000,26.9124,75.7873,Major government hospital with large capacity,Medium,Excellent
+278,Fortis Escorts Hospital Jaipur,Rajasthan,Jaipur,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,400,26.9138,75.7888,Highly reputed hospital with expert doctors,High,Excellent
+279,Narayana Multispeciality Hospital Jaipur,Rajasthan,Jaipur,"['Cardiology', 'Neurology', 'Radiology']",1100,4.6,4,350,26.9152,75.7903,Modern hospital with advanced facilities,High,Excellent
+280,Apex Hospitals Jaipur,Rajasthan,Jaipur,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,26.9166,75.7918,Well equipped hospital with good services,High,Excellent
+281,Ehcc Hospital Jaipur,Rajasthan,Jaipur,"['Cardiology', 'Oncology', 'Orthopedics', 'Radiology']",1300,4.7,3,500,26.918,75.7933,Top private hospital with modern infrastructure,High,Excellent
+282,Ck Birla Hospital Jaipur,Rajasthan,Jaipur,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,26.9194,75.7948,Reliable and affordable healthcare,Medium,Good
+283,Santokba Durlabhji Hospital,Rajasthan,Jaipur,"['Cardiology', 'Orthopedics', 'General Medicine']",950,4.5,4,300,26.9208,75.7963,Trusted hospital with experienced staff,Medium,Excellent
+284,Life Line Hospital Jaipur,Rajasthan,Jaipur,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,26.9222,75.7978,Affordable and friendly staff,Medium,Good
+285,Drishti Eye Hospital Jaipur,Rajasthan,Jaipur,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,26.9236,75.7993,Specialized eye care with high ratings,Medium,Excellent
+286,City Hospital Jaipur,Rajasthan,Jaipur,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,26.925,75.8008,Decent hospital for basic treatments,Medium,Good
+287,Geetanjali Medical College & Hospital,Rajasthan,Udaipur,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",900,4.5,4,600,24.5854,73.7125,Major medical college hospital with advanced facilities,Medium,Excellent
+288,Gbh American Hospital,Rajasthan,Udaipur,"['Cardiology', 'Orthopedics', 'Radiology']",1100,4.6,4,350,24.5868,73.714,Well known private hospital with expert doctors,High,Excellent
+289,Mewar Hospital,Rajasthan,Udaipur,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,24.5882,73.7155,Trusted hospital with modern infrastructure,High,Excellent
+290,Life Line Hospital Udaipur,Rajasthan,Udaipur,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,24.5896,73.717,Affordable and friendly staff,Medium,Good
+291,Aravali Hospital Udaipur,Rajasthan,Udaipur,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",850,4.4,5,250,24.591,73.7185,Reliable and affordable healthcare,Medium,Good
+292,Drishti Eye Hospital Udaipur,Rajasthan,Udaipur,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,24.5924,73.72,Specialized eye care with high ratings,Medium,Excellent
+293,City Hospital Udaipur,Rajasthan,Udaipur,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,24.5938,73.7215,Decent hospital for basic treatments,Medium,Good
+294,Om Hospital Udaipur,Rajasthan,Udaipur,"['Cardiology', 'Pulmonology', 'General Medicine']",900,4.4,4,260,24.5952,73.723,Trusted hospital with good services,Medium,Good
+295,Aiims Jodhpur,Rajasthan,Jodhpur,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",900,4.7,3,800,26.2389,73.0243,Premier government institute with advanced medical care,Medium,Excellent
+296,Mathuradas Mathur Hospital,Rajasthan,Jodhpur,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.4,5,700,26.2402,73.0258,Major government hospital with large capacity,Medium,Good
+297,Goyal Hospital Jodhpur,Rajasthan,Jodhpur,"['Cardiology', 'Orthopedics', 'Radiology']",1000,4.5,4,350,26.2415,73.0273,Well equipped hospital with experienced doctors,High,Excellent
+298,Medipulse Hospital Jodhpur,Rajasthan,Jodhpur,"['Cardiology', 'General Medicine', 'Radiology']",1100,4.6,4,400,26.2428,73.0288,Modern hospital with advanced facilities,High,Excellent
+299,Life Line Hospital Jodhpur,Rajasthan,Jodhpur,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,26.2441,73.0303,Affordable and friendly staff,Medium,Good
+300,Drishti Eye Hospital Jodhpur,Rajasthan,Jodhpur,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,26.2454,73.0318,Specialized eye care with high ratings,Medium,Excellent
+301,City Hospital Jodhpur,Rajasthan,Jodhpur,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,26.2467,73.0333,Decent hospital for basic treatments,Medium,Good
+302,Om Hospital Jodhpur,Rajasthan,Jodhpur,"['Cardiology', 'Pulmonology', 'General Medicine']",900,4.4,4,260,26.248,73.0348,Trusted hospital with good services,Medium,Good
+303,Aiims Bhopal,Madhya Pradesh,Bhopal,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",900,4.7,3,800,23.2599,77.4126,Premier government institute with advanced medical care,Medium,Excellent
+304,Hamidia Hospital Bhopal,Madhya Pradesh,Bhopal,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.4,5,700,23.2612,77.414,Major government hospital with large capacity,Medium,Good
+305,Bansal Hospital Bhopal,Madhya Pradesh,Bhopal,"['Cardiology', 'Orthopedics', 'Radiology']",1100,4.6,4,350,23.2625,77.4155,Well equipped hospital with experienced doctors,High,Excellent
+306,Chirayu Hospital Bhopal,Madhya Pradesh,Bhopal,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,23.2638,77.417,Modern hospital with advanced facilities,High,Excellent
+307,People’S Hospital Bhopal,Madhya Pradesh,Bhopal,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",800,4.4,5,400,23.2651,77.4185,Reputed hospital with good patient care,Medium,Good
+308,Life Line Hospital Bhopal,Madhya Pradesh,Bhopal,"['Orthopedics', 'Dermatology', 'General Medicine']",750,4.3,5,220,23.2664,77.42,Affordable and friendly staff,Medium,Good
+309,Drishti Eye Hospital Bhopal,Madhya Pradesh,Bhopal,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,23.2677,77.4215,Specialized eye care with high ratings,Medium,Excellent
+310,City Hospital Bhopal,Madhya Pradesh,Bhopal,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,23.269,77.423,Decent hospital for basic treatments,Medium,Good
+311,Chl Hospital Indore,Madhya Pradesh,Indore,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1100,4.6,4,400,22.7196,75.8577,Top multi-speciality hospital with advanced facilities,High,Excellent
+312,Bombay Hospital Indore,Madhya Pradesh,Indore,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,450,22.7209,75.8592,Highly reputed hospital with expert doctors,High,Excellent
+313,Apollo Hospital Indore,Madhya Pradesh,Indore,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1300,4.7,3,500,22.7222,75.8607,Modern hospital with world class infrastructure,High,Excellent
+314,Medanta Hospital Indore,Madhya Pradesh,Indore,"['Cardiology', 'General Medicine', 'Radiology']",1200,4.6,4,400,22.7235,75.8622,Trusted hospital with excellent care,High,Excellent
+315,Life Line Hospital Indore,Madhya Pradesh,Indore,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,22.7248,75.8637,Affordable and friendly staff,Medium,Good
+316,Drishti Eye Hospital Indore,Madhya Pradesh,Indore,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,22.7261,75.8652,Specialized eye care with high ratings,Medium,Excellent
+317,City Hospital Indore,Madhya Pradesh,Indore,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,22.7274,75.8667,Decent hospital for basic treatments,Medium,Good
+318,Om Hospital Indore,Madhya Pradesh,Indore,"['Cardiology', 'Pulmonology', 'General Medicine']",900,4.4,4,260,22.7287,75.8682,Trusted hospital with good services,Medium,Good
+319,Civil Hospital Ahmedabad,Gujarat,Ahmedabad,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.5,5,1200,23.0225,72.5714,One of the largest government hospitals with huge capacity,Medium,Excellent
+320,Apollo Hospital Ahmedabad,Gujarat,Ahmedabad,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1400,4.7,3,500,23.0238,72.5729,Top private hospital with advanced facilities,High,Excellent
+321,Zydus Hospital Ahmedabad,Gujarat,Ahmedabad,"['Cardiology', 'Orthopedics', 'Radiology']",1300,4.6,4,400,23.0251,72.5744,Highly reputed hospital with expert doctors,High,Excellent
+322,Sterling Hospital Ahmedabad,Gujarat,Ahmedabad,"['Cardiology', 'General Medicine', 'Radiology']",1200,4.6,4,350,23.0264,72.5759,Modern hospital with excellent care,High,Excellent
+323,Shalby Hospital Ahmedabad,Gujarat,Ahmedabad,"['Orthopedics', 'Cardiology', 'General Medicine']",1100,4.5,4,300,23.0277,72.5774,Well known hospital with good services,High,Excellent
+324,Medilink Hospital Ahmedabad,Gujarat,Ahmedabad,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,23.029,72.5789,Reliable and affordable healthcare,Medium,Good
+325,Life Line Hospital Ahmedabad,Gujarat,Ahmedabad,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,23.0303,72.5804,Affordable and friendly staff,Medium,Good
+326,Drishti Eye Hospital Ahmedabad,Gujarat,Ahmedabad,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,23.0316,72.5819,Specialized eye care with high ratings,Medium,Excellent
+327,City Hospital Ahmedabad,Gujarat,Ahmedabad,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,23.0329,72.5834,Decent hospital for basic treatments,Medium,Good
+328,Om Hospital Ahmedabad,Gujarat,Ahmedabad,"['Cardiology', 'Pulmonology', 'General Medicine']",900,4.4,4,260,23.0342,72.5849,Trusted hospital with good services,Medium,Good
+329,Civil Hospital Surat,Gujarat,Surat,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.4,5,1000,21.1702,72.8311,Major government hospital with large capacity,Medium,Good
+330,Apollo Hospital Surat,Gujarat,Surat,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1300,4.7,3,500,21.1715,72.8326,Top private hospital with advanced facilities,High,Excellent
+331,Sunshine Global Hospital,Gujarat,Surat,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,400,21.1728,72.8341,Well equipped hospital with experienced doctors,High,Excellent
+332,Shalby Hospital Surat,Gujarat,Surat,"['Orthopedics', 'Cardiology', 'General Medicine']",1100,4.5,4,350,21.1741,72.8356,Trusted hospital with good services,High,Excellent
+333,Life Care Hospital Surat,Gujarat,Surat,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,21.1754,72.8371,Affordable and friendly staff,Medium,Good
+334,Apple Hospital Surat,Gujarat,Surat,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,21.1767,72.8386,Reliable and affordable healthcare,Medium,Good
+335,Drishti Eye Hospital Surat,Gujarat,Surat,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,21.178,72.8401,Specialized eye care with high ratings,Medium,Excellent
+336,City Hospital Surat,Gujarat,Surat,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,21.1793,72.8416,Decent hospital for basic treatments,Medium,Good
+337,Kokilaben Dhirubhai Ambani Hospital,Maharashtra,Mumbai,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1600,4.8,3,600,19.076,72.8777,Top private hospital with world class facilities,High,Excellent
+338,Lilavati Hospital,Maharashtra,Mumbai,"['Cardiology', 'Orthopedics', 'Radiology']",1500,4.7,4,500,19.0773,72.8792,Highly reputed hospital with expert doctors,High,Excellent
+339,Fortis Hospital Mulund,Maharashtra,Mumbai,"['Cardiology', 'Neurology', 'Radiology']",1400,4.7,4,450,19.0786,72.8807,Modern hospital with advanced infrastructure,High,Excellent
+340,Jaslok Hospital,Maharashtra,Mumbai,"['Cardiology', 'Oncology', 'General Medicine', 'Radiology']",1500,4.7,4,500,19.0799,72.8822,Trusted hospital with experienced staff,High,Excellent
+341,Apollo Hospital Navi Mumbai,Maharashtra,Mumbai,"['Cardiology', 'Orthopedics', 'Radiology']",1400,4.6,4,400,19.0812,72.8837,Well equipped hospital with good services,High,Excellent
+342,Nair Hospital Mumbai,Maharashtra,Mumbai,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.5,5,900,19.0825,72.8852,Major government hospital with large capacity,Medium,Excellent
+343,Saifee Hospital Mumbai,Maharashtra,Mumbai,"['Cardiology', 'General Medicine', 'Radiology']",1300,4.6,4,350,19.0838,72.8867,Reliable hospital with modern facilities,High,Excellent
+344,Life Line Hospital Mumbai,Maharashtra,Mumbai,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,19.0851,72.8882,Affordable and friendly staff,Medium,Good
+345,Drishti Eye Hospital Mumbai,Maharashtra,Mumbai,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,19.0864,72.8897,Specialized eye care with high ratings,Medium,Excellent
+346,City Hospital Mumbai,Maharashtra,Mumbai,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,19.0877,72.8912,Decent hospital for basic treatments,Medium,Good
+347,Ruby Hall Clinic,Maharashtra,Pune,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1300,4.7,4,400,18.5204,73.8567,Top multi-speciality hospital with advanced facilities,High,Excellent
+348,Sahyadri Hospital Pune,Maharashtra,Pune,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,350,18.5217,73.8582,Highly reputed hospital with expert doctors,High,Excellent
+349,Deenanath Mangeshkar Hospital,Maharashtra,Pune,"['Cardiology', 'Neurology', 'Radiology']",1100,4.6,4,400,18.523,73.8597,Trusted hospital with modern infrastructure,High,Excellent
+350,Aditya Birla Memorial Hospital,Maharashtra,Pune,"['Cardiology', 'Orthopedics', 'General Medicine']",1200,4.6,4,350,18.5243,73.8612,Well equipped hospital with good services,High,Excellent
+351,Columbia Asia Hospital Pune,Maharashtra,Pune,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",1000,4.5,5,300,18.5256,73.8627,Reliable and affordable healthcare,High,Excellent
+352,Life Line Hospital Pune,Maharashtra,Pune,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,18.5269,73.8642,Affordable and friendly staff,Medium,Good
+353,Drishti Eye Hospital Pune,Maharashtra,Pune,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,18.5282,73.8657,Specialized eye care with high ratings,Medium,Excellent
+354,City Hospital Pune,Maharashtra,Pune,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,18.5295,73.8672,Decent hospital for basic treatments,Medium,Good
+355,Narayana Health City,Karnataka,Bangalore,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1400,4.7,3,600,12.8456,77.6603,Top multi-speciality hospital with advanced care,High,Excellent
+356,Manipal Hospital Bangalore,Karnataka,Bangalore,"['Cardiology', 'Orthopedics', 'Radiology']",1300,4.6,4,500,12.9279,77.6271,Highly reputed hospital with expert doctors,High,Excellent
+357,Fortis Hospital Bannerghatta Road,Karnataka,Bangalore,"['Cardiology', 'Neurology', 'Radiology']",1400,4.7,4,450,12.8956,77.5993,Modern hospital with excellent infrastructure,High,Excellent
+358,Apollo Hospital Bangalore,Karnataka,Bangalore,"['Cardiology', 'Oncology', 'General Medicine', 'Radiology']",1500,4.7,3,500,12.907,77.597,Trusted hospital with world class facilities,High,Excellent
+359,Sakra World Hospital,Karnataka,Bangalore,"['Cardiology', 'Orthopedics', 'General Medicine']",1300,4.6,4,400,12.9237,77.6927,Well equipped hospital with modern services,High,Excellent
+360,Columbia Asia Hospital Bangalore,Karnataka,Bangalore,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",1100,4.5,5,350,12.9716,77.5946,Reliable and affordable healthcare,High,Excellent
+361,Aster Cmi Hospital,Karnataka,Bangalore,"['Cardiology', 'Neurology', 'Radiology']",1400,4.7,4,450,13.0358,77.597,Highly reputed hospital with advanced care,High,Excellent
+362,Life Line Hospital Bangalore,Karnataka,Bangalore,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,12.95,77.61,Affordable and friendly staff,Medium,Good
+363,Drishti Eye Hospital Bangalore,Karnataka,Bangalore,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,12.96,77.62,Specialized eye care with high ratings,Medium,Excellent
+364,City Hospital Bangalore,Karnataka,Bangalore,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,12.97,77.63,Decent hospital for basic treatments,Medium,Good
+365,Apollo Hospitals Chennai,Tamil Nadu,Chennai,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1500,4.8,3,600,13.0827,80.2707,Top private hospital with world class facilities,High,Excellent
+366,Fortis Malar Hospital Chennai,Tamil Nadu,Chennai,"['Cardiology', 'Orthopedics', 'Radiology']",1400,4.7,4,450,13.084,80.2722,Highly reputed hospital with expert doctors,High,Excellent
+367,Miot International Chennai,Tamil Nadu,Chennai,"['Cardiology', 'Neurology', 'Radiology']",1400,4.7,4,500,13.0853,80.2737,Modern hospital with advanced infrastructure,High,Excellent
+368,Sims Hospital Chennai,Tamil Nadu,Chennai,"['Cardiology', 'Oncology', 'General Medicine', 'Radiology']",1300,4.6,4,400,13.0866,80.2752,Trusted hospital with excellent care,High,Excellent
+369,Global Hospitals Chennai,Tamil Nadu,Chennai,"['Cardiology', 'Oncology', 'General Medicine']",1400,4.7,3,450,13.0879,80.2767,Well equipped hospital with modern facilities,High,Excellent
+370,Srm Hospital Chennai,Tamil Nadu,Chennai,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",1000,4.5,5,350,13.0892,80.2782,Reliable and affordable healthcare,High,Excellent
+371,Government General Hospital Chennai,Tamil Nadu,Chennai,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.5,5,900,13.0905,80.2797,Major government hospital with large capacity,Medium,Excellent
+372,Life Line Hospital Chennai,Tamil Nadu,Chennai,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,13.0918,80.2812,Affordable and friendly staff,Medium,Good
+373,Drishti Eye Hospital Chennai,Tamil Nadu,Chennai,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,13.0931,80.2827,Specialized eye care with high ratings,Medium,Excellent
+374,City Hospital Chennai,Tamil Nadu,Chennai,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,13.0944,80.2842,Decent hospital for basic treatments,Medium,Good
+375,Apollo Hospitals Hyderabad,Telangana,Hyderabad,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1500,4.8,3,600,17.385,78.4867,Top private hospital with world class facilities,High,Excellent
+376,Yashoda Hospitals Hyderabad,Telangana,Hyderabad,"['Cardiology', 'Orthopedics', 'Radiology']",1400,4.7,4,500,17.3863,78.4882,Highly reputed hospital with expert doctors,High,Excellent
+377,Kims Hospitals Hyderabad,Telangana,Hyderabad,"['Cardiology', 'Neurology', 'Radiology']",1400,4.7,4,550,17.3876,78.4897,Modern hospital with advanced infrastructure,High,Excellent
+378,Continental Hospitals Hyderabad,Telangana,Hyderabad,"['Cardiology', 'Oncology', 'General Medicine', 'Radiology']",1300,4.6,4,450,17.3889,78.4912,Trusted hospital with excellent care,High,Excellent
+379,Care Hospitals Hyderabad,Telangana,Hyderabad,"['Cardiology', 'Oncology', 'General Medicine']",1400,4.7,3,500,17.3902,78.4927,Well equipped hospital with modern facilities,High,Excellent
+380,Sunshine Hospitals Hyderabad,Telangana,Hyderabad,"['General Medicine', 'Orthopedics', 'Radiology']",1200,4.6,4,400,17.3915,78.4942,Reliable hospital with good patient care,High,Excellent
+381,Osmania General Hospital,Telangana,Hyderabad,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.4,5,900,17.3928,78.4957,Major government hospital with large capacity,Medium,Good
+382,Life Line Hospital Hyderabad,Telangana,Hyderabad,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,17.3941,78.4972,Affordable and friendly staff,Medium,Good
+383,Drishti Eye Hospital Hyderabad,Telangana,Hyderabad,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,17.3954,78.4987,Specialized eye care with high ratings,Medium,Excellent
+384,City Hospital Hyderabad,Telangana,Hyderabad,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,17.3967,78.5002,Decent hospital for basic treatments,Medium,Good
+385,Apollo Gleneagles Hospital,West Bengal,Kolkata,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1500,4.7,3,500,22.5726,88.3639,Top private hospital with advanced facilities,High,Excellent
+386,Fortis Hospital Anandapur,West Bengal,Kolkata,"['Cardiology', 'Orthopedics', 'Radiology']",1400,4.7,4,450,22.5739,88.3654,Highly reputed hospital with expert doctors,High,Excellent
+387,Amri Hospital Kolkata,West Bengal,Kolkata,"['Cardiology', 'Neurology', 'Radiology']",1300,4.6,4,400,22.5752,88.3669,Modern hospital with excellent infrastructure,High,Excellent
+388,Medica Superspecialty Hospital,West Bengal,Kolkata,"['Cardiology', 'Oncology', 'General Medicine', 'Radiology']",1300,4.6,4,450,22.5765,88.3684,Trusted hospital with advanced care,High,Excellent
+389,Peerless Hospital Kolkata,West Bengal,Kolkata,"['Cardiology', 'General Medicine', 'Radiology']",1200,4.5,4,350,22.5778,88.3699,Well equipped hospital with good services,High,Excellent
+390,Sskm Hospital Kolkata,West Bengal,Kolkata,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.5,5,900,22.5791,88.3714,Major government hospital with large capacity,Medium,Excellent
+391,Columbia Asia Hospital Kolkata,West Bengal,Kolkata,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",1000,4.5,5,300,22.5804,88.3729,Reliable and affordable healthcare,High,Excellent
+392,Life Line Hospital Kolkata,West Bengal,Kolkata,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,22.5817,88.3744,Affordable and friendly staff,Medium,Good
+393,Drishti Eye Hospital Kolkata,West Bengal,Kolkata,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,22.583,88.3759,Specialized eye care with high ratings,Medium,Excellent
+394,City Hospital Kolkata,West Bengal,Kolkata,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,22.5843,88.3774,Decent hospital for basic treatments,Medium,Good
+395,Aiims Patna,Bihar,Patna,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",800,4.6,4,700,25.5941,85.1376,Premier government institute with advanced medical care,Medium,Excellent
+396,Indira Gandhi Institute Of Medical Sciences,Bihar,Patna,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.5,5,600,25.5954,85.1391,Major government hospital with good facilities,Medium,Excellent
+397,Paras Hmri Hospital Patna,Bihar,Patna,"['Cardiology', 'Orthopedics', 'Radiology']",1100,4.6,4,400,25.5967,85.1406,Highly reputed hospital with expert doctors,High,Excellent
+398,Rubana Hospital Patna,Bihar,Patna,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,25.598,85.1421,Well equipped hospital with good services,High,Excellent
+399,Big Apollo Spectra Patna,Bihar,Patna,"['Orthopedics', 'General Medicine', 'Radiology']",1100,4.5,4,250,25.5993,85.1436,Modern hospital with advanced infrastructure,High,Excellent
+400,Life Line Hospital Patna,Bihar,Patna,"['Orthopedics', 'Dermatology', 'General Medicine']",750,4.3,5,220,25.6006,85.1451,Affordable and friendly staff,Medium,Good
+401,Drishti Eye Hospital Patna,Bihar,Patna,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,25.6019,85.1466,Specialized eye care with high ratings,Medium,Excellent
+402,City Hospital Patna,Bihar,Patna,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,25.6032,85.1481,Decent hospital for basic treatments,Medium,Good
+403,Rims Ranchi,Jharkhand,Ranchi,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.4,5,800,23.3441,85.3096,Major government medical institute with advanced facilities,Medium,Good
+404,Medanta Hospital Ranchi,Jharkhand,Ranchi,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,400,23.3454,85.3111,Highly reputed hospital with expert doctors,High,Excellent
+405,Orchid Medical Centre Ranchi,Jharkhand,Ranchi,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,23.3467,85.3126,Well equipped hospital with modern infrastructure,High,Excellent
+406,Santevita Hospital Ranchi,Jharkhand,Ranchi,"['Cardiology', 'Neurology', 'Radiology']",1100,4.6,4,350,23.348,85.3141,Trusted hospital with good services,High,Excellent
+407,Life Line Hospital Ranchi,Jharkhand,Ranchi,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,23.3493,85.3156,Affordable and friendly staff,Medium,Good
+408,City Hospital Ranchi,Jharkhand,Ranchi,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,23.3506,85.3171,Reliable and affordable healthcare,Medium,Good
+409,Drishti Eye Hospital Ranchi,Jharkhand,Ranchi,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,23.3519,85.3186,Specialized eye care with high ratings,Medium,Excellent
+410,Om Hospital Ranchi,Jharkhand,Ranchi,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,23.3532,85.3201,Decent hospital for basic treatments,Medium,Good
+411,Gnrc Hospital Guwahati,Assam,Guwahati,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",1000,4.6,4,400,26.1445,91.7362,Top multi-speciality hospital in North East,High,Excellent
+412,Dispur Hospital,Assam,Guwahati,"['Cardiology', 'Orthopedics', 'Radiology']",900,4.5,5,300,26.1458,91.7377,Well equipped hospital with good services,Medium,Excellent
+413,Apollo Clinic Guwahati,Assam,Guwahati,"['Cardiology', 'General Medicine', 'Radiology']",1100,4.6,4,280,26.1471,91.7392,Trusted hospital with modern facilities,High,Excellent
+414,Hayat Hospital Guwahati,Assam,Guwahati,"['Cardiology', 'Neurology', 'Radiology']",1200,4.6,4,350,26.1484,91.7407,Highly reputed hospital with expert doctors,High,Excellent
+415,Nemcare Hospital,Assam,Guwahati,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",800,4.4,5,250,26.1497,91.7422,Reliable and affordable healthcare,Medium,Good
+416,Life Line Hospital Guwahati,Assam,Guwahati,"['Orthopedics', 'Dermatology', 'General Medicine']",750,4.3,5,220,26.151,91.7437,Affordable and friendly staff,Medium,Good
+417,Drishti Eye Hospital Guwahati,Assam,Guwahati,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,26.1523,91.7452,Specialized eye care with high ratings,Medium,Excellent
+418,City Hospital Guwahati,Assam,Guwahati,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,26.1536,91.7467,Decent hospital for basic treatments,Medium,Good
+419,Civil Hospital Shillong,Meghalaya,Shillong,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",500,4.2,6,250,25.5788,91.8933,Major government hospital with basic facilities,Medium,Good
+420,Woodland Hospital Shillong,Meghalaya,Shillong,"['Cardiology', 'General Medicine', 'Radiology']",900,4.4,4,200,25.5801,91.8948,Well equipped hospital with good services,Medium,Good
+421,Nazareth Hospital Shillong,Meghalaya,Shillong,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",700,4.3,5,180,25.5814,91.8963,Reliable and affordable healthcare,Medium,Good
+422,Bethany Hospital Shillong,Meghalaya,Shillong,"['Cardiology', 'Orthopedics', 'General Medicine']",850,4.4,4,220,25.5827,91.8978,Trusted hospital with experienced staff,Medium,Good
+423,Drishti Eye Hospital Shillong,Meghalaya,Shillong,"['Ophthalmology', 'General Medicine']",600,4.5,3,150,25.584,91.8993,Specialized eye care with good ratings,Medium,Excellent
+424,City Hospital Shillong,Meghalaya,Shillong,"['General Medicine', 'Pathology', 'Dentistry']",500,4.2,6,150,25.5853,91.9008,Decent hospital for basic treatments,Medium,Good
+425,Regional Institute Of Medical Sciences,Manipur,Imphal,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.4,5,500,24.817,93.9368,Major government medical institute with advanced facilities,Medium,Good
+426,Javaharlal Nehru Institute Of Medical Sciences,Manipur,Imphal,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.3,5,450,24.8183,93.9383,Reputed hospital with good services,Medium,Good
+427,Shija Hospitals,Manipur,Imphal,"['Cardiology', 'Orthopedics', 'Radiology']",1000,4.6,4,300,24.8196,93.9398,Top private hospital with expert doctors,High,Excellent
+428,City Hospital Imphal,Manipur,Imphal,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",700,4.3,5,200,24.8209,93.9413,Reliable and affordable healthcare,Medium,Good
+429,Life Line Hospital Imphal,Manipur,Imphal,"['Orthopedics', 'Dermatology', 'General Medicine']",650,4.2,5,180,24.8222,93.9428,Affordable and friendly staff,Medium,Good
+430,Drishti Eye Hospital Imphal,Manipur,Imphal,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,24.8235,93.9443,Specialized eye care with good ratings,Medium,Good
+431,Civil Hospital Aizawl,Mizoram,Aizawl,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",500,4.2,6,250,23.7271,92.7176,Major government hospital with basic facilities,Medium,Good
+432,Falkawn Referral Hospital,Mizoram,Aizawl,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",600,4.3,5,220,23.7284,92.7191,Reliable hospital with good services,Medium,Good
+433,Trinity Hospital Aizawl,Mizoram,Aizawl,"['Cardiology', 'Orthopedics', 'Radiology']",900,4.5,4,200,23.7297,92.7206,Well equipped hospital with experienced doctors,Medium,Excellent
+434,City Hospital Aizawl,Mizoram,Aizawl,"['General Medicine', 'Dermatology', 'Pathology']",700,4.3,5,180,23.731,92.7221,Affordable and friendly staff,Medium,Good
+435,Drishti Eye Hospital Aizawl,Mizoram,Aizawl,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,23.7323,92.7236,Specialized eye care with good ratings,Medium,Good
+436,Life Line Hospital Aizawl,Mizoram,Aizawl,"['Orthopedics', 'General Medicine', 'Dentistry']",650,4.2,5,170,23.7336,92.7251,Decent hospital for basic treatments,Medium,Good
+437,Bethel Medical Centre,Nagaland,Kohima,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",700,4.4,5,200,25.6713,94.1092,Reliable and affordable healthcare,Medium,Good
+438,Eden Medical Centre,Nagaland,Kohima,"['Cardiology', 'Orthopedics', 'Radiology']",900,4.5,4,220,25.6726,94.1107,Well equipped hospital with experienced doctors,Medium,Excellent
+439,City Hospital Kohima,Nagaland,Kohima,"['General Medicine', 'Dermatology', 'Pathology']",700,4.3,5,180,25.6739,94.1122,Affordable and friendly staff,Medium,Good
+440,Drishti Eye Hospital Kohima,Nagaland,Kohima,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,25.6752,94.1137,Specialized eye care with good ratings,Medium,Good
+441,Life Line Hospital Kohima,Nagaland,Kohima,"['Orthopedics', 'General Medicine', 'Dentistry']",650,4.2,5,170,25.6765,94.1152,Decent hospital for basic treatments,Medium,Good
+442,Naga Hospital Authority,Nagaland,Kohima,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.3,5,300,25.67,94.1077,Major government hospital with good facilities,Medium,Good
+443,Gbp Hospital Agartala,Tripura,Agartala,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.3,5,400,23.8315,91.2868,Major government hospital with good facilities,Medium,Good
+444,Ils Hospital Agartala,Tripura,Agartala,"['Cardiology', 'Orthopedics', 'Radiology']",900,4.5,4,250,23.8328,91.2883,Well equipped hospital with experienced doctors,Medium,Excellent
+445,Tripura Medical College Hospital,Tripura,Agartala,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",700,4.4,5,300,23.8341,91.2898,Reputed hospital with reliable services,Medium,Good
+446,City Hospital Agartala,Tripura,Agartala,"['General Medicine', 'Dermatology', 'Pathology']",700,4.3,5,200,23.8354,91.2913,Affordable and friendly staff,Medium,Good
+447,Drishti Eye Hospital Agartala,Tripura,Agartala,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,23.8367,91.2928,Specialized eye care with good ratings,Medium,Good
+448,Life Line Hospital Agartala,Tripura,Agartala,"['Orthopedics', 'General Medicine', 'Dentistry']",650,4.2,5,180,23.838,91.2943,Decent hospital for basic treatments,Medium,Good
+449,Trihms Itanagar,Arunachal Pradesh,Itanagar,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.4,5,300,27.0844,93.6053,Major government medical institute with good facilities,Medium,Good
+450,Ramakrishna Mission Hospital,Arunachal Pradesh,Itanagar,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",600,4.3,5,220,27.0857,93.6068,Reliable hospital with affordable care,Medium,Good
+451,Heema Hospital Itanagar,Arunachal Pradesh,Itanagar,"['Cardiology', 'Orthopedics', 'Radiology']",900,4.5,4,200,27.087,93.6083,Well equipped hospital with experienced doctors,Medium,Excellent
+452,City Hospital Itanagar,Arunachal Pradesh,Itanagar,"['General Medicine', 'Dermatology', 'Pathology']",700,4.3,5,180,27.0883,93.6098,Affordable and friendly staff,Medium,Good
+453,Drishti Eye Hospital Itanagar,Arunachal Pradesh,Itanagar,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,27.0896,93.6113,Specialized eye care with good ratings,Medium,Good
+454,Life Line Hospital Itanagar,Arunachal Pradesh,Itanagar,"['Orthopedics', 'General Medicine', 'Dentistry']",650,4.2,5,170,27.0909,93.6128,Decent hospital for basic treatments,Medium,Good
+455,Stnm Hospital Gangtok,Sikkim,Gangtok,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",600,4.3,5,300,27.3389,88.6065,Major government hospital with good facilities,Medium,Good
+456,Central Referral Hospital Sikkim,Sikkim,Gangtok,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",800,4.5,4,350,27.3402,88.608,Reputed hospital with advanced care,Medium,Excellent
+457,Manipal Hospital Gangtok,Sikkim,Gangtok,"['Cardiology', 'Orthopedics', 'Radiology']",1000,4.6,4,250,27.3415,88.6095,Well equipped hospital with experienced doctors,High,Excellent
+458,City Hospital Gangtok,Sikkim,Gangtok,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",700,4.3,5,200,27.3428,88.611,Reliable and affordable healthcare,Medium,Good
+459,Drishti Eye Hospital Gangtok,Sikkim,Gangtok,"['Ophthalmology', 'General Medicine']",600,4.4,3,150,27.3441,88.6125,Specialized eye care with good ratings,Medium,Good
+460,Life Line Hospital Gangtok,Sikkim,Gangtok,"['Orthopedics', 'General Medicine', 'Dentistry']",650,4.2,5,170,27.3454,88.614,Decent hospital for basic treatments,Medium,Good
+461,Aiims Bhubaneswar,Odisha,Bhubaneswar,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",900,4.7,3,600,20.2961,85.8245,Premier government institute with advanced medical care,Medium,Excellent
+462,Apollo Hospital Bhubaneswar,Odisha,Bhubaneswar,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,400,20.2974,85.826,Highly reputed hospital with expert doctors,High,Excellent
+463,Kalinga Hospital Bhubaneswar,Odisha,Bhubaneswar,"['Cardiology', 'General Medicine', 'Radiology']",1000,4.5,5,300,20.2987,85.8275,Well equipped hospital with good services,High,Excellent
+464,Amri Hospital Bhubaneswar,Odisha,Bhubaneswar,"['Cardiology', 'Neurology', 'Radiology']",1100,4.6,4,350,20.3,85.829,Modern hospital with advanced infrastructure,High,Excellent
+465,Sum Ultimate Hospital,Odisha,Bhubaneswar,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,400,20.3013,85.8305,Reliable and affordable healthcare,Medium,Good
+466,Life Line Hospital Bhubaneswar,Odisha,Bhubaneswar,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,20.3026,85.832,Affordable and friendly staff,Medium,Good
+467,Drishti Eye Hospital Bhubaneswar,Odisha,Bhubaneswar,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,20.3039,85.8335,Specialized eye care with high ratings,Medium,Excellent
+468,City Hospital Bhubaneswar,Odisha,Bhubaneswar,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,20.3052,85.835,Decent hospital for basic treatments,Medium,Good
+469,Aiims Raipur,Chhattisgarh,Raipur,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",900,4.7,3,600,21.2514,81.6296,Premier government institute with advanced medical care,Medium,Excellent
+470,Ramkrishna Care Hospital,Chhattisgarh,Raipur,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,400,21.2527,81.6311,Highly reputed hospital with expert doctors,High,Excellent
+471,Narayana Superspeciality Hospital,Chhattisgarh,Raipur,"['Cardiology', 'Neurology', 'Radiology']",1100,4.6,4,350,21.254,81.6326,Modern hospital with advanced infrastructure,High,Excellent
+472,Balco Medical Centre,Chhattisgarh,Raipur,"['Oncology', 'General Medicine', 'Radiology']",1200,4.6,4,300,21.2553,81.6341,Top cancer care hospital with modern facilities,High,Excellent
+473,Life Line Hospital Raipur,Chhattisgarh,Raipur,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,21.2566,81.6356,Affordable and friendly staff,Medium,Good
+474,City Hospital Raipur,Chhattisgarh,Raipur,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,21.2579,81.6371,Reliable and affordable healthcare,Medium,Good
+475,Drishti Eye Hospital Raipur,Chhattisgarh,Raipur,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,21.2592,81.6386,Specialized eye care with high ratings,Medium,Excellent
+476,Om Hospital Raipur,Chhattisgarh,Raipur,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,21.2605,81.6401,Decent hospital for basic treatments,Medium,Good
+477,Aster Medcity Kochi,Kerala,Kochi,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1500,4.8,3,600,9.9312,76.2673,Top multi-speciality hospital with world class facilities,High,Excellent
+478,Amrita Institute Of Medical Sciences,Kerala,Kochi,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1400,4.8,3,700,9.9325,76.2688,Premier medical institute with advanced care,High,Excellent
+479,Lakeshore Hospital Kochi,Kerala,Kochi,"['Cardiology', 'Orthopedics', 'Radiology']",1300,4.7,4,400,9.9338,76.2703,Highly reputed hospital with expert doctors,High,Excellent
+480,Renai Medicity Kochi,Kerala,Kochi,"['Cardiology', 'General Medicine', 'Radiology']",1200,4.6,4,350,9.9351,76.2718,Modern hospital with excellent infrastructure,High,Excellent
+481,Rajagiri Hospital Kochi,Kerala,Kochi,"['Cardiology', 'Neurology', 'Radiology']",1300,4.7,4,400,9.9364,76.2733,Trusted hospital with advanced care,High,Excellent
+482,Life Line Hospital Kochi,Kerala,Kochi,"['Orthopedics', 'Dermatology', 'General Medicine']",900,4.3,5,250,9.9377,76.2748,Affordable and friendly staff,Medium,Good
+483,Drishti Eye Hospital Kochi,Kerala,Kochi,"['Ophthalmology', 'General Medicine']",800,4.5,3,200,9.939,76.2763,Specialized eye care with high ratings,Medium,Excellent
+484,City Hospital Kochi,Kerala,Kochi,"['General Medicine', 'Pathology', 'Dentistry']",700,4.2,6,220,9.9403,76.2778,Decent hospital for basic treatments,Medium,Good
+485,Apollo Hospitals Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['Cardiology', 'Neurology', 'Oncology', 'Radiology']",1400,4.7,3,500,17.6868,83.2185,Top private hospital with advanced facilities,High,Excellent
+486,Care Hospitals Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['Cardiology', 'Orthopedics', 'Radiology']",1300,4.6,4,400,17.6881,83.22,Highly reputed hospital with expert doctors,High,Excellent
+487,Sevenhills Hospital Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['Cardiology', 'Neurology', 'Radiology']",1200,4.6,4,350,17.6894,83.2215,Modern hospital with advanced infrastructure,High,Excellent
+488,King George Hospital,Andhra Pradesh,Visakhapatnam,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",700,4.5,5,900,17.6907,83.223,Major government hospital with large capacity,Medium,Excellent
+489,Life Line Hospital Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,17.692,83.2245,Affordable and friendly staff,Medium,Good
+490,City Hospital Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,17.6933,83.226,Reliable and affordable healthcare,Medium,Good
+491,Drishti Eye Hospital Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,17.6946,83.2275,Specialized eye care with high ratings,Medium,Excellent
+492,Om Hospital Visakhapatnam,Andhra Pradesh,Visakhapatnam,"['General Medicine', 'Pathology', 'Dentistry']",600,4.2,6,200,17.6959,83.229,Decent hospital for basic treatments,Medium,Good
+493,Goa Medical College Hospital,Goa,Panaji,"['Cardiology', 'Neurology', 'General Medicine', 'Radiology']",700,4.5,5,800,15.4909,73.8278,Major government hospital with advanced facilities,Medium,Excellent
+494,Manipal Hospital Goa,Goa,Panaji,"['Cardiology', 'Orthopedics', 'Radiology']",1200,4.6,4,350,15.4922,73.8293,Highly reputed hospital with expert doctors,High,Excellent
+495,Healthway Hospital Goa,Goa,Panaji,"['Cardiology', 'General Medicine', 'Radiology']",1100,4.5,4,300,15.4935,73.8308,Modern hospital with good infrastructure,High,Excellent
+496,Vintage Hospital Goa,Goa,Panaji,"['General Medicine', 'Pediatrics', 'ENT', 'Pathology']",900,4.4,5,250,15.4948,73.8323,Reliable and affordable healthcare,Medium,Good
+497,Life Line Hospital Goa,Goa,Panaji,"['Orthopedics', 'Dermatology', 'General Medicine']",800,4.3,5,220,15.4961,73.8338,Affordable and friendly staff,Medium,Good
+498,Drishti Eye Hospital Goa,Goa,Panaji,"['Ophthalmology', 'General Medicine']",700,4.5,3,200,15.4974,73.8353,Specialized eye care with high ratings,Medium,Excellent
+499,Kavaratti Government Hospital,Lakshadweep,Kavaratti,"['General Medicine', 'Basic Care', 'Emergency']",300,4.0,7,100,10.5667,72.6417,Primary government hospital with basic facilities,Low,Good
+500,Agatti Island Hospital,Lakshadweep,Agatti,"['General Medicine', 'Emergency']",250,4.0,7,80,10.8505,72.1763,Basic healthcare services for island residents,Low,Good
+501,Minicoy Government Hospital,Lakshadweep,Minicoy,"['General Medicine', 'Emergency']",250,4.1,7,90,8.3,73.05,Small hospital providing essential services,Low,Good
+502,Gb Pant Hospital,Andaman & Nicobar Islands,Port Blair,"['General Medicine', 'Cardiology', 'Orthopedics', 'Radiology']",500,4.3,5,300,11.6234,92.7265,Main government hospital with good facilities,Medium,Good
+503,Inhs Dhanvantari,Andaman & Nicobar Islands,Port Blair,"['General Medicine', 'Emergency', 'Radiology']",600,4.4,4,200,11.6247,92.728,Naval hospital with advanced care,Medium,Good
+504,Pillar Health Centre,Andaman & Nicobar Islands,Port Blair,"['General Medicine', 'Pediatrics', 'ENT']",400,4.2,5,150,11.626,92.7295,Reliable healthcare centre,Low,Good
+505,Drishti Eye Hospital Port Blair,Andaman & Nicobar Islands,Port Blair,"['Ophthalmology', 'General Medicine']",350,4.3,4,120,11.6273,92.731,Specialized eye care services,Low,Good
+506,Fortis Hospital Delhi,Delhi,Delhi,"[""['Cardiology','Neurology','General Medicine']""]",900,4.6,4,220,28.7041,77.1025,Advanced multi-speciality hospital,Medium,Excellent
+507,Apollo Hospital Delhi,Delhi,Delhi,"[""['Orthopedics','Cardiology','General Medicine']""]",1000,4.7,3,250,28.5355,77.391,Top rated hospital with modern facilities,High,Excellent
+508,Max Super Speciality Delhi,Delhi,Delhi,"[""['Neurology','Cardiology','Dermatology']""]",1100,4.5,5,200,28.5672,77.21,Trusted doctors and advanced care,High,Excellent
+509,Aiims Delhi,Delhi,Delhi,"[""['General Medicine','Cardiology','Pediatrics']""]",500,4.8,6,300,28.5672,77.21,Government hospital with excellent doctors,Medium,Excellent
+510,Manipal Hospital Delhi,Delhi,Delhi,"[""['Orthopedics','Neurology','General Medicine']""]",850,4.4,4,180,28.4595,77.0266,Good infrastructure and care,Medium,Good
+511,Fortis Hospital Mumbai,Maharashtra,Mumbai,"[""['Cardiology','Orthopedics','General Medicine']""]",950,4.6,3,230,19.076,72.8777,Well equipped hospital,Medium,Excellent
+512,Apollo Hospital Mumbai,Maharashtra,Mumbai,"[""['Neurology','Cardiology','Dermatology']""]",1000,4.7,2,260,19.2183,72.9781,Premium healthcare services,High,Excellent
+514,Kokilaben Hospital,Maharashtra,Mumbai,"[""['Cardiology','Neurology','Radiology']""]",1200,4.8,3,270,19.129,72.824,Top rated hospital,High,Excellent
+515,Nanavati Hospital,Maharashtra,Mumbai,"[""['Orthopedics','Dermatology','General Medicine']""]",850,4.4,4,190,19.095,72.8397,Affordable and reliable,Medium,Good
+517,Aster Hospital Bangalore,Karnataka,Bangalore,"[""['Orthopedics','Dermatology','General Medicine']""]",800,4.5,4,210,12.9352,77.6245,Well maintained hospital,Medium,Excellent
+518,Narayana Health Bangalore,Karnataka,Bangalore,"[""['Cardiology','Pediatrics','General Medicine']""]",700,4.7,5,260,12.8456,77.6603,Excellent cardiac care,Medium,Excellent
+519,Columbia Asia Bangalore,Karnataka,Bangalore,"[""['Neurology','Orthopedics','Radiology']""]",850,4.4,4,200,13.0352,77.597,Good facilities and staff,Medium,Good
+520,Sakra Hospital Bangalore,Karnataka,Bangalore,"[""['Cardiology','Dermatology','General Medicine']""]",950,4.5,3,220,12.9279,77.6271,Trusted healthcare provider,Medium,Excellent
+521,Fortis Hospital Jaipur,Rajasthan,Jaipur,"[""['Cardiology','Orthopedics','General Medicine']""]",800,4.5,4,210,26.9124,75.7873,Good hospital in Jaipur,Medium,Excellent
+522,Narayana Hospital Jaipur,Rajasthan,Jaipur,"[""['Cardiology','Neurology','General Medicine']""]",700,4.6,5,230,26.8467,75.8237,Affordable and reliable,Medium,Excellent
+523,Apex Hospital Jaipur,Rajasthan,Jaipur,"[""['Orthopedics','Dermatology','General Medicine']""]",600,4.3,4,180,26.85,75.81,Basic care hospital,Medium,Good
+526,Apollo Hospital Chennai,Tamil Nadu,Chennai,"[""['Cardiology','Neurology','General Medicine']""]",1000,4.8,3,280,13.0827,80.2707,Top hospital in Chennai,High,Excellent
+527,Fortis Malar Chennai,Tamil Nadu,Chennai,"[""['Orthopedics','Cardiology','Dermatology']""]",900,4.6,4,240,13.044,80.2496,Premium services,Medium,Excellent
+528,Miot Hospital Chennai,Tamil Nadu,Chennai,"[""['Cardiology','Neurology','Radiology']""]",1100,4.7,3,260,13.0292,80.208,Trusted hospital,High,Excellent
+529,Global Hospital Chennai,Tamil Nadu,Chennai,"[""['General Medicine','Pediatrics','Orthopedics']""]",800,4.5,5,210,12.8966,80.2065,Good facilities,Medium,Excellent
+530,Kauvery Hospital Chennai,Tamil Nadu,Chennai,"[""['Cardiology','Dermatology','General Medicine']""]",850,4.4,4,200,13.0827,80.2707,Reliable hospital,Medium,Good
