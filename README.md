@@ -1,7 +1,9 @@
-🏥 ✨ CUVORIA — SMART HOSPITAL RECOMMENDATION SYSTEM ✨
+🏥 CUVORIA
+
+SMART HOSPITAL RECOMMENDATION SYSTEM
 
 <p align="center">
-  <h3><b>Right Care, Right Place, Right Time</b></h3>
+  <b style="font-size:18px;">Right Care, Right Place, Right Time</b>
 </p>---
 
 🧠 Overview
@@ -74,19 +76,19 @@ streamlit run app.py
 📂 Project Structure
 
 Cuvoria/
-│── app.py
-│── cleaned_hospitals.csv
-│── logo.png
-│── requirements.txt
 │
-├── assets/
-│   ├── home.png
-│   ├── results.png
-│   ├── insights.png
-│   ├── map.png
-│   └── assistant.png
+├── app.py
+├── cleaned_hospitals.csv
+├── logo.png
+├── requirements.txt
+├── README.md
 │
-└── README.md
+└── assets/
+    ├── home.png
+    ├── results.png
+    ├── insights.png
+    ├── map.png
+    └── assistant.png
 
 ---
 
@@ -95,23 +97,31 @@ Cuvoria/
 🏠 Home Interface
 
 <p align="center">
-  <img src="assets/home.png" width="850"/>
-</p>🔍 Hospital Recommendations
+  <img src="assets/home.png" width="850" style="border:2px solid #444; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);"/>
+</p>---
+
+🔍 Hospital Recommendations
 
 <p align="center">
-  <img src="assets/results.png" width="850"/>
-</p>📊 Insights & Analytics
+  <img src="assets/results.png" width="850" style="border:2px solid #444; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);"/>
+</p>---
+
+📊 Insights & Analytics
 
 <p align="center">
-  <img src="assets/insights.png" width="850"/>
-</p>🗺 Interactive Map
+  <img src="assets/insights.png" width="850" style="border:2px solid #444; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);"/>
+</p>---
+
+🗺 Interactive Map
 
 <p align="center">
-  <img src="assets/map.png" width="850"/>
-</p>🤖 Luna AI Assistant
+  <img src="assets/map.png" width="850" style="border:2px solid #444; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);"/>
+</p>---
+
+🤖 Luna AI Assistant
 
 <p align="center">
-  <img src="assets/assistant.png" width="850"/>
+  <img src="assets/assistant.png" width="850" style="border:2px solid #444; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);"/>
 </p>---
 
 👨‍💻 Author
