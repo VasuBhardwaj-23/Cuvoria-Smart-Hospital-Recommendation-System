@@ -1,9 +1,7 @@
-🏥 CUVORIA
-
-SMART HOSPITAL RECOMMENDATION SYSTEM
-
 <p align="center">
-  <b style="font-size:18px;">Right Care, Right Place, Right Time</b>
+  <h1 style="font-size:48px; margin-bottom:0;">🏥 <b>CUVORIA</b></h1>
+  <h2 style="margin-top:5px;">SMART HOSPITAL RECOMMENDATION SYSTEM</h2>
+  <p><b>Right Care, Right Place, Right Time</b></p>
 </p>---
 
 🧠 Overview
@@ -127,7 +125,7 @@ Cuvoria/
 👨‍💻 Author
 
 Vasu Bhardwaj
-BTech CSE | Data Analytics | AI & Cloud Enthusiast
+Data Analyst | AI & Cloud Enthusiast
 
 ---
 
