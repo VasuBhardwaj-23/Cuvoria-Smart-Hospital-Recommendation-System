@@ -1,38 +1,14 @@
-🏥 CUVORIA — Smart Hospital Recommendation System
+🏥 ✨ CUVORIA — SMART HOSPITAL RECOMMENDATION SYSTEM ✨
 
 <p align="center">
-  <b>Right Care, Right Place, Right Time</b>
-</p>---
-
-🚀 Application Preview
-
-🏠 Home Interface
-
-<p align="center">
-  <img src="assets/home.png" width="850"/>
-</p>🔍 Hospital Recommendations
-
-<p align="center">
-  <img src="assets/results.png" width="850"/>
-</p>📊 Insights & Analytics
-
-<p align="center">
-  <img src="assets/insights.png" width="850"/>
-</p>🗺 Interactive Map
-
-<p align="center">
-  <img src="assets/map.png" width="850"/>
-</p>🤖 Luna AI Assistant
-
-<p align="center">
-  <img src="assets/assistant.png" width="850"/>
+  <h3><b>Right Care, Right Place, Right Time</b></h3>
 </p>---
 
 🧠 Overview
 
-Cuvoria is an intelligent healthcare recommendation platform designed to help users find the most suitable hospitals based on multiple real-world factors such as location, specialization, availability, and ratings.
+Cuvoria is an intelligent healthcare recommendation platform designed to help users find the most suitable hospitals based on real-world factors such as location, specialization, availability, and ratings.
 
-The system combines data analytics, geospatial logic, and AI assistance to provide fast, relevant, and reliable hospital recommendations.
+The system combines data analytics, geospatial intelligence, and AI assistance to deliver fast, accurate, and reliable hospital recommendations.
 
 ---
 
@@ -41,7 +17,7 @@ The system combines data analytics, geospatial logic, and AI assistance to provi
 - 🏥 Smart hospital recommendations based on user input
 - 📍 Distance-based ranking using real geospatial calculations
 - ⭐ Hybrid scoring system (rating + distance + availability)
-- 📊 Interactive analytics dashboards for better insights
+- 📊 Interactive analytics dashboard for insights
 - 🗺 Real-time hospital location visualization (Folium map)
 - 🤖 Luna AI Assistant for instant health-related queries
 - 🚑 Emergency mode for quick nearest hospital access
@@ -66,11 +42,11 @@ pip install -r requirements.txt
 
 3️⃣ Configure API Key
 
-Create this file:
+Create file:
 
 .streamlit/secrets.toml
 
-Add your Groq API key:
+Add:
 
 GROQ_API_KEY = "your_api_key_here"
 
@@ -87,10 +63,10 @@ streamlit run app.py
 1. Select your city
 2. Choose required treatment or specialization
 3. Click Find Hospitals
-4. Get:
-   - 📍 Best hospital recommendations
-   - 📊 Data-driven insights
-   - 🗺 Interactive map view
+4. View:
+   - 📍 Recommended hospitals
+   - 📊 Analytical insights
+   - 🗺 Interactive map
    - 🤖 AI assistance via Luna
 
 ---
@@ -114,6 +90,30 @@ Cuvoria/
 
 ---
 
+📸 Project Screenshots
+
+🏠 Home Interface
+
+<p align="center">
+  <img src="assets/home.png" width="850"/>
+</p>🔍 Hospital Recommendations
+
+<p align="center">
+  <img src="assets/results.png" width="850"/>
+</p>📊 Insights & Analytics
+
+<p align="center">
+  <img src="assets/insights.png" width="850"/>
+</p>🗺 Interactive Map
+
+<p align="center">
+  <img src="assets/map.png" width="850"/>
+</p>🤖 Luna AI Assistant
+
+<p align="center">
+  <img src="assets/assistant.png" width="850"/>
+</p>---
+
 👨‍💻 Author
 
 Vasu Bhardwaj
@@ -123,7 +123,7 @@ BTech CSE | Data Analytics | AI & Cloud Enthusiast
 
 📌 Note
 
-This project showcases the practical application of data analytics, AI, and geospatial intelligence to solve real-world healthcare accessibility challenges.
+This project demonstrates the integration of data analytics, AI, and geospatial intelligence to solve real-world healthcare accessibility challenges.
 
 ---
 
