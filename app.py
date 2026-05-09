@@ -6,7 +6,10 @@ import ast
 from math import radians, sin, cos, sqrt, atan2
 import base64
 import random
-from groq import Groq   
+from groq import Groq
+from langchain_groq import ChatGroq
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
+   
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -16,8 +19,14 @@ st.set_page_config(
 )
 
 # ---------------- API ----------------
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])  
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
+llm = ChatGroq(
+    groq_api_key=st.secrets["GROQ_API_KEY"],
+    model_name="llama-3.1-8b-instant",
+    temperature=0.4
+)
+  
 # ---------------- SESSION ----------------
 if "search_done" not in st.session_state:
     st.session_state.search_done = False
@@ -35,6 +44,10 @@ if "luna_response" not in st.session_state:
 if "luna_query" not in st.session_state:
     st.session_state.luna_query = ""
 
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
+
 # ---------------- LOAD DATA ----------------
 df = pd.read_csv("cleaned_hospitals.csv")
 df['specialization'] = df['specialization'].apply(ast.literal_eval)
@@ -42,6 +55,65 @@ df['specialization'] = df['specialization'].apply(ast.literal_eval)
 # ---------------- FAKE CONTACT ----------------
 def get_fake_contact():
     return "9" + "".join([str(random.randint(0,9)) for _ in range(9)])
+
+from fpdf import FPDF
+from datetime import datetime
+
+def generate_pdf(hospitals):
+
+    pdf = FPDF()
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
+
+    # ---------------- LOGO ----------------
+    try:
+        pdf.image("logo.png", x=80, w=50)
+        pdf.ln(10)
+    except:
+        pass
+
+    # ---------------- TITLE ----------------
+    pdf.set_font("Arial", "B", 16)
+    pdf.cell(0, 10, "Medical Recommendation Report", ln=True, align="C")
+
+    pdf.ln(3)
+
+    # ---------------- SUBTITLE ----------------
+    pdf.set_font("Arial", "B", 12)
+    pdf.cell(0, 10, "Top 5 Recommended Hospitals", ln=True, align="C")
+
+    pdf.ln(5)
+
+    # ---------------- TIMESTAMP ----------------
+    pdf.set_font("Arial", "", 10)
+    pdf.cell(0, 8, f"Generated on: {datetime.now().strftime('%d-%m-%Y %I:%M %p')}", ln=True)
+
+    pdf.ln(5)
+
+    # ---------------- DATA ----------------
+    for idx, (_, row) in enumerate(hospitals.iterrows(), start=1):
+
+        pdf.set_font("Arial", "B", 12)
+        pdf.cell(0, 8, f"{idx}. {row['hospital_name']}", ln=True)
+
+        pdf.set_font("Arial", "", 10)
+
+        pdf.cell(0, 6, f"Location: {row['city']}, {row['state']}", ln=True)
+        pdf.cell(0, 6, f"Distance: {round(row['distance'],1)} km", ln=True)
+        pdf.cell(0, 6, f"Rating: {row['rating']}", ln=True)
+        pdf.cell(0, 6, f"Consultation Fee: Rs {row['consultation_fee']}", ln=True)
+
+        reason = f"Recommended based on {round(row['distance'],1)} km proximity and rating {row['rating']}"
+        pdf.cell(0, 6, f"Reason: {reason}", ln=True)
+
+        pdf.cell(0, 6, f"Contact: {get_fake_contact()}", ln=True)
+
+        pdf.ln(4)
+
+    file_path = "hospital_report.pdf"
+    pdf.output(file_path)
+
+    return file_path
 
 # ---------------- DISTANCE ----------------
 def calculate_distance(lat1, lon1, lat2, lon2):
@@ -75,6 +147,7 @@ def filter_specialization(df, specialization):
     return df[df['specialization'].apply(lambda x: specialization in x)].copy()
 
 # ---------------- MAIN ----------------
+
 def get_recommendations(city, specialization):
 
     user_row = df[df['city'].str.lower() == city.lower()]
@@ -85,6 +158,7 @@ def get_recommendations(city, specialization):
 
     filtered = filter_specialization(df, specialization)
 
+    # distance
     filtered['distance'] = filtered.apply(
         lambda row: calculate_distance(
             user_row['latitude'], user_row['longitude'],
@@ -92,31 +166,283 @@ def get_recommendations(city, specialization):
         ), axis=1
     )
 
-    city_result = filtered[filtered['city'].str.lower() == city.lower()]
-    if len(city_result) >= 3:
-        city_result['score'] = city_result.apply(calculate_score, axis=1)
-        return city_result.sort_values(by='score', ascending=False).head(5), "city"
+    city_df = filtered[filtered['city'].str.lower() == city.lower()].copy()
+    other_df = filtered[filtered['city'].str.lower() != city.lower()].copy()
 
-    state_result = filtered[filtered['state'] == user_row['state']]
-    if len(state_result) >= 3:
-        state_result['score'] = state_result.apply(calculate_score, axis=1)
-        return state_result.sort_values(by='score', ascending=False).head(5), "state"
+    # --------- STEP 1: build candidate set (rule-based) ----------
+    if len(city_df) >= 5:
+        candidates = city_df
+        level = "city"
+    elif len(city_df) > 0:
+        # fill from nearest others
+        remaining = 5 - len(city_df)
+        nearest_fill = other_df.sort_values(by='distance').head(remaining)
+        candidates = pd.concat([city_df, nearest_fill])
+        level = "city"
+    else:
+        candidates = filtered
+        level = "nearest"
 
-    filtered['score'] = filtered.apply(calculate_score, axis=1)
-    return filtered.sort_values(by=['distance', 'rating'], ascending=[True, False]).head(5), "nearest"
+    # --------- STEP 2: KNN only for ranking on candidates ----------
+    try:
+        from sklearn.preprocessing import StandardScaler
+        from sklearn.neighbors import NearestNeighbors
 
-# ---------------- LUNA FUNCTION (ADDED ONLY) ----------------
-def ask_luna(query):
-    response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
-        messages=[
-            {"role": "system", "content": "You are Luna, a health assistant. Give short clear answers."},
-            {"role": "user", "content": query}
+        features = candidates[['rating', 'consultation_fee', 'distance', 'beds_available']]
+
+        scaler = StandardScaler()
+        X = scaler.fit_transform(features)
+
+        k = min(5, len(candidates))
+        knn = NearestNeighbors(n_neighbors=k)
+        knn.fit(X)
+
+        # default preference (baad me UI se dynamic kar sakte ho)
+        user_input = pd.DataFrame(
+            [[4.5, 700, 5, 150]],
+            columns=['rating', 'consultation_fee', 'distance', 'beds_available']
+        )
+        u = scaler.transform(user_input)
+
+        _, idx = knn.kneighbors(u)
+        ranked = candidates.iloc[idx[0]].copy()
+
+        # ensure stable order (city first if mixed)
+        if len(city_df) > 0 and len(city_df) < 5:
+            ranked = pd.concat([
+                ranked[ranked['city'].str.lower() == city.lower()],
+                ranked[ranked['city'].str.lower() != city.lower()]
+            ])
+
+        return ranked, level
+
+    except:
+        # safe fallback
+        candidates['score'] = candidates.apply(calculate_score, axis=1)
+        return candidates.sort_values(by='score', ascending=False).head(5), level
+
+ 
+# ---------------- HOSPITAL CONTEXT FUNCTION ----------------
+
+def get_hospital_context(query):
+
+    query = query.lower()
+
+    # -------- FIND REQUESTED CITY --------
+
+    requested_city = None
+
+    for city in df['city'].unique():
+
+        if city.lower() in query:
+            requested_city = city.lower()
+            break
+
+    # -------- MEDICAL KEYWORDS --------
+
+    medical_map = {
+        "blood test": ["pathology", "diagnostic", "lab"],
+        "heart": ["cardiology"],
+        "cardiology": ["cardiology"],
+        "brain": ["neurology"],
+        "bone": ["orthopedics"],
+        "cancer": ["oncology"],
+        "skin": ["dermatology"],
+        "child": ["pediatrics"],
+        "eye": ["ophthalmology"],
+        "diabetes": ["endocrinology", "general medicine"]
+    }
+
+    specialization_keywords = []
+
+    for key, values in medical_map.items():
+
+        if key in query:
+            specialization_keywords.extend(values)
+
+    # -------- CITY FILTER --------
+
+    city_df = pd.DataFrame()
+
+    if requested_city:
+
+        city_df = df[
+            df['city'].str.lower() == requested_city
+        ].copy()
+
+    # -------- SPECIALIZATION FILTER --------
+
+    if not city_df.empty and specialization_keywords:
+
+        filtered = city_df[
+            city_df['specialization'].astype(str).str.lower().apply(
+                lambda x: any(k in x for k in specialization_keywords)
+            )
         ]
+
+    elif not city_df.empty:
+
+        filtered = city_df
+
+    else:
+
+        filtered = pd.DataFrame()
+
+    # -------- IF CITY MATCH FOUND --------
+
+    if not filtered.empty:
+
+        filtered = filtered.sort_values(
+            by='rating',
+            ascending=False
+        ).head(5)
+
+        context = ""
+
+        for idx, (_, row) in enumerate(filtered.iterrows(), start=1):
+
+            context += (
+                f"{idx}. {row['hospital_name']}\n"
+                f"City: {row['city']}\n"
+                f"State: {row['state']}\n"
+                f"Specialization: {', '.join(row['specialization'])}\n"
+                f"Rating: {row['rating']}\n"
+                f"Beds: {row['beds_available']}\n"
+                f"Review: {row['review']}\n\n"
+            )
+
+        return context
+
+    # -------- SAME STATE FALLBACK --------
+
+    if requested_city:
+
+        state_match = df[
+            df['city'].str.lower() == requested_city
+        ]
+
+        if not state_match.empty:
+
+            user_state = state_match.iloc[0]['state']
+
+            nearby = df[
+                df['state'] == user_state
+            ].sort_values(
+                by='rating',
+                ascending=False
+            ).head(5)
+
+            if not nearby.empty:
+
+                context = ""
+
+                for idx, (_, row) in enumerate(nearby.iterrows(), start=1):
+
+                    context += (
+                        f"{idx}. {row['hospital_name']}\n"
+                        f"City: {row['city']}\n"
+                        f"State: {row['state']}\n"
+                        f"Specialization: {', '.join(row['specialization'])}\n"
+                        f"Rating: {row['rating']}\n"
+                        f"Beds: {row['beds_available']}\n"
+                        f"Review: {row['review']}\n\n"
+                    )
+
+                return context
+
+    # -------- INDIA FALLBACK --------
+
+    india_best = df.sort_values(
+        by='rating',
+        ascending=False
+    ).head(5)
+
+    context = ""
+
+    for idx, (_, row) in enumerate(india_best.iterrows(), start=1):
+
+        context += (
+            f"{idx}. {row['hospital_name']}\n"
+            f"City: {row['city']}\n"
+            f"State: {row['state']}\n"
+            f"Specialization: {', '.join(row['specialization'])}\n"
+            f"Rating: {row['rating']}\n"
+            f"Beds: {row['beds_available']}\n"
+            f"Review: {row['review']}\n\n"
+        )
+
+    return context
+  
+# ---------------- LUNA FUNCTION ----------------
+
+def ask_luna(query):
+
+    # ---------------- SMART DATASET CONTEXT ----------------
+    hospital_context = get_hospital_context(query)
+
+    # ---------------- SYSTEM PROMPT ----------------
+    messages = [
+        SystemMessage(content=f"""
+You are Luna, the AI healthcare assistant of Cuvoria.
+
+Rules:
+- Recommend hospitals naturally and professionally.
+- Use ONLY the hospital information provided below.
+- Never create fake hospitals, ratings, reviews, or facilities.
+- If hospitals exist for the requested city, recommend ONLY those hospitals.
+- Suggest nearby cities ONLY when no hospitals exist for the requested city.
+- Never mention datasets, databases, missing data, or internal limitations.
+- Do NOT explain hospitals in your own words.
+- ONLY display the exact hospital information provided.
+- Format recommendations in bullet-point style.
+- Mention ratings, beds, reviews, and specialization whenever available.
+- For general medical questions, answer medically first.
+- Do not recommend hospitals unless the user asks.
+
+Hospital Information:
+{hospital_context}
+""")
+    ]
+
+    # ---------------- CHAT HISTORY ----------------
+    for msg in st.session_state.chat_history[-6:]:
+
+        if msg["role"] == "user":
+            messages.append(
+                HumanMessage(content=msg["content"])
+            )
+
+        else:
+            messages.append(
+                AIMessage(content=msg["content"])
+            )
+
+    # ---------------- CURRENT USER QUERY ----------------
+    messages.append(
+        HumanMessage(content=query)
     )
-    return response.choices[0].message.content
+
+    # ---------------- MODEL RESPONSE ----------------
+    response = llm.invoke(messages)
+
+    # ---------------- SAVE MEMORY ----------------
+    st.session_state.chat_history.append({
+        "role": "user",
+        "content": query
+    })
+
+    st.session_state.chat_history.append({
+        "role": "assistant",
+        "content": response.content
+    })
+
+    return response.content
+
+
+# ---------------- CLEAR FUNCTION ----------------
 
 def clear_luna():
+
     st.session_state.luna_query = ""
     st.session_state.luna_response = ""
 
@@ -337,11 +663,36 @@ elif st.session_state.search_done:
             icon=folium.Icon(color="green", icon="plus-sign")
         ).add_to(m)
 
+    col1, col2, col3 = st.columns([1, 6, 1])
+
+with col2:
     st_folium(m, width=1000)
 
-    if st.button("🔄 New Search"):
-        st.session_state.search_done = False
-        st.rerun()
+if st.session_state.search_done and not st.session_state.emergency_mode:
+
+    st.markdown("---")
+
+    col1, col2, col3 = st.columns([1,2,1])
+
+    with col2:
+        # Download Button
+        pdf_file = generate_pdf(results)
+
+        with open(pdf_file, "rb") as f:
+            st.download_button(
+                label="📄 Download Report",
+                data=f,
+                file_name="Cuvoria_Report.pdf",
+                mime="application/pdf",
+                use_container_width=True
+            )
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        # New Search
+        if st.button("🔄 New Search", use_container_width=True):
+            st.session_state.search_done = False
+            st.rerun()
 
 # ---------------- LUNA OUTPUT (ADDED ONLY) ----------------
 if st.session_state.luna_response:
