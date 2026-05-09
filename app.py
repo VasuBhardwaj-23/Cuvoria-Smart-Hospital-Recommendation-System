@@ -648,25 +648,40 @@ elif st.session_state.search_done:
     st.markdown("---")
     st.subheader("📍 Hospital Locations")
 
+ 
+
     m = folium.Map(
-        location=[results.iloc[0]['latitude'], results.iloc[0]['longitude']],
+        location=[
+            results.iloc[0]['latitude'],
+            results.iloc[0]['longitude']
+        ],
         zoom_start=10
     )
 
     for _, row in results.iterrows():
+
         folium.Marker(
-            location=[row['latitude'], row['longitude']],
+            location=[
+                row['latitude'],
+                row['longitude']
+            ],
             popup=folium.Popup(
-                f"<b>{row['hospital_name']}</b><br>⭐ {row['rating']}<br>₹ {row['consultation_fee']}",
+                f"<b>{row['hospital_name']}</b><br>"
+                f"⭐ {row['rating']}<br>"
+                f"₹ {row['consultation_fee']}",
                 max_width=250
             ),
-            icon=folium.Icon(color="green", icon="plus-sign")
+            icon=folium.Icon(
+                color="green",
+                icon="plus-sign"
+            )
         ).add_to(m)
 
+    # CENTER MAP
     col1, col2, col3 = st.columns([1, 6, 1])
 
-with col2:
-    st_folium(m, width=1000)
+    with col2:
+        st_folium(m, width=1000)
 
 if st.session_state.search_done and not st.session_state.emergency_mode:
 
