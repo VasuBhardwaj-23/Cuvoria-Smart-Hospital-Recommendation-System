@@ -16,26 +16,16 @@
 </div>
 
 ---
----
-
 <div align="center">
 
-# 🚀 Live Demo
+## 🚀 Try Cuvoria Live
 
-### 🌐 Experience the Application
+> **Click the button below to launch the application**
 
-<a href="YOUR_STREAMLIT_LINK_HERE" target="_blank">
-    <img src="https://img.shields.io/badge/🚀%20Launch%20Cuvoria-Live%20Demo-success?style=for-the-badge&logo=streamlit" />
-</a>
-
-<br><br>
-
-**🔗 Live URL:**
-https://cuvoria-smart-hospital-recommendation-system-nguxauyusvqr9pyxx.streamlit.app
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://cuvoria-smart-hospital-recommendation-system-nguxauyusvqr9pyxx.streamlit.app)
 
 </div>
 
----
 # 🧠 Overview
 
 Cuvoria is an intelligent healthcare recommendation platform designed to help users discover the most suitable hospitals using real-world healthcare intelligence.
